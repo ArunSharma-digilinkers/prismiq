@@ -1,0 +1,31 @@
+/*====================================================================
+	Page banners layout-1
+=====================================================================*/
+.page-banner {
+    position: relative;
+    width: 100%;
+    padding-bottom: 30%;
+
+    &--about {
+        background-image: url('../img/banner-1.jpg');
+        @include background-image;
+    }
+
+    &--contact {
+        background-image: url('../img/banner-1.jpg');
+        @include background-image;
+    }
+
+    .page-banner-caption {
+        position: absolute;
+        left: 10%;
+        bottom: 20%;
+
+        h5 {
+            font-size: 2.5rem;
+        }
+    }
+}
+.page-banner.carousel {
+    padding: 0;
+}

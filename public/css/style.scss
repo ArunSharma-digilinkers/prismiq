@@ -1,0 +1,23 @@
+@import "sass/abstracts/variables";
+@import "sass/abstracts/mixins";
+
+@import "sass/base/reset";
+@import "sass/base/typography";
+
+@import "sass/components/buttons";
+@import "sass/components/cards";
+@import "sass/components/carousels";
+@import "sass/components/modals";
+@import "sass/components/pagebanners";
+@import "sass/components/tabs";
+
+@import "sass/developer/anas";
+
+
+@import "sass/layout/columns";
+@import "sass/layout/footers";
+@import "sass/layout/forms";
+@import "sass/layout/navbars";
+
+@import "sass/pages/about";
+@import "sass/pages/contact";

@@ -1,0 +1,104 @@
+/*====================================================================
+	Banners style 1 Bootstrap carousel
+=====================================================================*/
+#digiCarousel {
+    .carousel-item {
+        position: relative;
+        width: 100%;
+        padding-bottom: 40%;
+        @include background-image;
+        font-family: "Montserrat", sans-serif;
+    }
+    .carousel-item1 {
+        background-image: url('../img/home-banner-1.jpg');
+
+    }
+    // .carousel-item2 {
+    //     background-image: url('../img/banner-2.jpg');
+    // }
+    // .carousel-item3 {
+    //     background-image: url('../img/banner-3.jpg');
+    // }
+    .carousel-caption {
+            right: 10%;
+    bottom: 80%;
+    transform: translateY(50%);
+    left: 50%;
+    text-align: left;
+        
+        h5 {
+            color: #000000;
+            font-size: 40px;
+            text-transform: uppercase;
+            font-weight: 800;
+        }
+        
+        h3 {
+            color: #000;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: 33px;
+        }
+    }
+}
+
+/*====================================================================
+	Banners style 2 Swiper carousel
+=====================================================================*/
+.carousel-wrapper-cube {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 31.25%;
+    
+    .swiper {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .slide1 {
+            background-image: url('../img/banner-1.jpg');
+        }
+        
+        .slide2 {
+            background-image: url('../img/banner-2.jpg');
+        }
+        
+        .slide3 {
+            background-image: url('../img/banner-3.jpg');
+        }
+    }
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+    background: $color-white;
+}
+
+.carousel-wrapper-flip {
+    overflow: hidden;
+    position: relative;
+    
+    .swiper {
+        width: 100%;
+        height: 100%;
+        
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,112 @@
+/*====================================================================
+	Cards general
+=====================================================================*/
+.card {
+	border: none;
+	border-radius: 0;
+	position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img {
+	border-radius: 0;
+}
+
+.card-title {
+	color: $color-primary;
+    margin-bottom: 12px;
+}
+
+/*====================================================================
+	Card layout-1
+=====================================================================*/
+.card-1 {
+	height: 100%;
+	background-color: $light-bg2;
+	padding: 1rem;
+	text-align: center;
+	
+	&__icon {
+		padding: 1.5rem;
+		
+		i {
+			font-size: 50px;
+			color: $color-highlight;
+		}
+	}
+}
+.dark .card-1 {
+	background-color: $dark-mode-contrast;
+}
+
+/*====================================================================
+	Card layout-2
+=====================================================================*/
+.card-2 {
+	position: relative;
+	height: 100%;
+	background-color: $light-bg2;
+	
+	&__content {
+		padding: 1rem 1.5rem 4rem;
+	}
+	
+	&__title {
+		padding: 0.5rem;
+	}
+	
+	&__footer {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		text-align: center;
+		padding: 1rem ;
+	}
+}
+.dark {
+	.card-2 {
+		background-color: $dark-bg;
+	}
+}
+
+/*====================================================================
+	Card side layout-1
+=====================================================================*/
+.card-side {
+   display: flex;
+    background-color: #ffffff;
+    overflow: hidden;
+    position: relative;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    &__image {
+        position: relative;
+        overflow: hidden;
+		flex: 0 0 40%;
+    }
+
+	&__body {
+		padding: 20px;
+    	flex: 0 0 60%;
+	}
+
+	&__content {
+		margin-bottom: 0.75rem;
+	}
+
+	&__title {
+		font-size: 1.2rem;
+		    font-size: 25px;
+    font-weight: 600;
+	}
+
+	a {
+		display: inline-block;
+	}
+}
+
+.dark .card-side {
+	background-color: $dark-mode-contrast;
+}

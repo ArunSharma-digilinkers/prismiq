@@ -1,0 +1,71 @@
+/*===============================================================
+	Contact us page
+=================================================================*/
+#mail-msg-alert {
+	margin-bottom: 3rem;
+}
+#mail-msg-alert button.btn {
+	display: table;
+	margin: 0 auto;
+}
+#mail-msg {
+	color: $color-white;
+}
+#mail-msg:hover {
+	text-decoration: none;
+}
+.contact-section {
+	margin-top: 4rem;
+
+	&__widget {
+		margin-bottom: 2rem;
+	}
+
+	.social-list {
+		@include display-flex;
+		justify-content: flex-start;
+
+		li:not(:last-child) {
+			margin-right: 20px;
+		}
+
+		i {
+			width: 35px;
+			height: 35px;
+			line-height: 35px;
+			text-align: center;
+			color: $color-text;
+			border: 1px solid $color-text;
+			background-color: transparent;
+			transition: all .3s;
+
+			&:hover {
+				color: $color-white;
+				border-color: transparent;
+				background-color: $color-text;
+			}
+		}
+	}
+}
+.dark .contact-section .social-list i {
+	color: $light-bg2;
+	border-color: $light-bg2;
+	transition: all .3s;
+
+	&:hover {
+		color: $color-white;
+		border-color: $color-white;
+	}
+}
+.contact-map {
+	position: relative;
+	padding-bottom: 34%;
+
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+	}
+}

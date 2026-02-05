@@ -1,0 +1,151 @@
+/* For dropdown menu */
+@media only screen and (min-width: 992px) {
+	.navbar.dd-nav {
+		.sub-menu, .sub-menu2 {
+			position: absolute;
+			z-index: 10;
+			opacity: 0;
+			visibility: hidden;
+			left: 0;
+			padding: 15px 0%;
+			background-color: #fff;
+			border-top: 1px solid rgba($color-black, 0.2);
+			width: max-content;
+			
+			li {
+				padding: 0.5rem 1rem;
+				border-bottom: 1px solid $light-bg;
+			}
+			
+			a {
+				text-decoration: none;
+				color: $text-color;
+				display: block;
+				text-transform: uppercase;
+				letter-spacing: 1.2px;
+			}
+		}
+
+		.dropdown-nav:hover {
+			.sub-menu, .sub-menu2 {
+				perspective: 1000px;
+				opacity: 1;
+				visibility: visible;
+				
+				li {
+					opacity: 1;
+					visibility: visible;
+					animation: viewMenu 0.8s ease-in-out forwards;
+				}
+			}
+		}
+		
+		.sub-menu li:hover a, .sub-menu2 li:hover a {
+			color: $text-color;
+		}
+	}
+	
+    @keyframes viewMenu {
+        0% {
+            opacity: 0;
+            transform: rotateX(-90deg);
+            transform-origin: top;
+        }
+        100% {
+            opacity: 1;
+            transform: rotateX(0deg);
+        }
+    }
+
+    .hidden-menu, .hidden-menu2 {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+	.navbar.dd-nav {
+		.dropdown-nav, .dropdown-nav2 {
+			position: relative;
+		}
+		.nav-link {
+			line-height: 2.5rem;
+		}
+		.hidden-menu, .hidden-menu2 {
+			position: absolute;
+			top: 0.75rem;
+			right: 1rem;
+			color: $text-color;
+			height: 1.5rem;
+			width: 1.5rem;
+			line-height: 1.5rem;
+			text-align: center;
+			border: 1px solid $text-color;
+			border-radius: 50%;
+			cursor: pointer;
+		}
+		.sub-drop, .sub-drop2, .sub-menu, .sub-menu2 {
+			position: absolute;
+			opacity: 0;
+			visibility: hidden;
+		}
+		.sub-menu-small, .sub-menu2-small {
+			position: static;
+			opacity: 1;
+			visibility: visible;
+			padding: 0;
+			width: 100%;
+			
+			li {
+				padding: 0.5rem 1rem 0.5rem 2rem;
+				background-color: $color-white;
+				
+				a {
+					text-decoration: none;
+					color: $text-color;
+					display: block;
+					text-transform: uppercase;
+					letter-spacing: 1.2px;
+				}
+				
+				&:hover {
+					background-color: $light-bg;
+					
+					a {
+						color: $color-black;
+					}
+				}
+			}
+
+			li:not(:last-child) {
+				border-bottom: 1px solid $light-bg2;
+			}
+		}
+
+		.menu-list-sm {
+			li {
+				text-transform: uppercase;
+				letter-spacing: 1.2px;
+
+				&:hover {
+					background-color: $color-white;
+				}
+			}
+		}
+
+		.menu-sublist-sm {
+			li {
+				padding-left: 0.5rem;
+
+				a {
+					font-size: 0.9rem;
+				}
+
+				&:hover {
+					background-color: $light-bg;
+				}
+			}
+		}
+	}
+}
+/* End dropdown menu */

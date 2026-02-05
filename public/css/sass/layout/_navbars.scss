@@ -1,0 +1,224 @@
+
+.back-top {
+    height: 100%;
+    background: $color-primary;
+    width: 100%;
+    padding: 6px;
+
+     a{
+        color: #fff;
+    }
+}
+
+.top-bar-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    position: relative;
+}
+
+.back-top p {
+    color: #fff;
+    font-weight: 500;
+    margin: 0;
+}
+
+.fixed-top-nav {
+    position: relative;
+    top: 0px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.footer-social-list {
+    padding: 0;
+    margin-bottom: 0;
+    display: flex;
+}
+
+ li i {
+    color: #137efe;
+    width: 35px;
+    height: 35px;
+    font-size: 23px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 35px;
+    transition: all 0.3s;
+    background: #fff;
+}
+
+.pr-3  {
+    padding-right: 1rem !important;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #fff;
+    text-align: left;
+    list-style: none;
+    /* background-color: #e31e24; */
+    background-clip: padding-box;
+    border: none;
+    border-radius: 0.25rem;
+    line-height: 40px;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 500;
+    color: #fff;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: #000;
+    border: 0;
+    border-bottom: solid 1px #585858;
+    text-transform: capitalize;
+}
+
+
+/*====================================================================
+	Navbar style 1
+=====================================================================*/
+.navbar {
+	background-color: transparent;
+	
+	.logo-img {
+		width: 125px;
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 99999;
+    background-color: #fff;
+	}
+	.logo-img.dark-mode {
+		display: none;
+	}
+	.nav-item {
+		padding-left: 0.5rem;
+	}
+	.nav-link {
+        color: #363636;
+        line-height: 50px;
+        text-transform: capitalize;
+        letter-spacing: 1.2px;
+        font-size: 17px;
+	}
+}
+.dark .navbar {
+	background-color: transparent;
+
+	.nav-link {
+		color: $color-white;
+	}
+
+	.logo-img {
+		display: none;
+	}
+
+	.logo-img.dark-mode {
+		display: block;
+	}
+}
+
+/* Hide dropdown by default */
+#exportsDropdown .dropdown-menu {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    margin-top: 0;
+    line-height: 45px;
+    border-radius: 0;
+}
+
+/* Hide dropdown by default */
+#productsDropdown .dropdown-menu {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    margin-top: 0;
+    line-height: 45px;
+    border-radius: 0;
+}
+
+
+
+/* Hide dropdown by default */
+#productsDropdown .dropdown-menu,
+#exportsDropdown .dropdown-menu {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    margin-top: 0;
+    line-height: 45px;
+    border-radius: 0;
+    padding: 0;
+}
+
+/* Show on hover via .show-dropdown */
+#productsDropdown.show-dropdown .dropdown-menu,
+#exportsDropdown.show-dropdown .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-item {
+    background-color: $color-primary;
+    color: #fff;
+    border-bottom: solid 1px #fff;
+	padding: 3px 15px;
+ }
+ .dropdown-item:hover {
+    background-color: #000;
+    color: #fff;
+ }
+
+.customNav {
+	animation: navSlide 1s ease forwards;
+	background-color: $color-white;
+	-webkit-box-shadow: 0 2px 6px -1px rgba($color-black, .2);
+	box-shadow: 0 2px 6px -1px rgba($color-black, .2);
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.dark .customNav {
+	background-color: $dark-mode;
+}
+@keyframes navSlide {
+	0% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+

@@ -168,6 +168,39 @@ var swiper = new Swiper(".flipSwiper", {
 });
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    // Counter values
+    const counters = {
+        installedCapacity: 500,
+        windTurbines: 650,
+        solarPanels: 100,
+        projectsCompleted: 150
+    };
+
+    // Function to animate the counter
+    function animateCounter(id, targetValue) {
+        const counter = document.getElementById(id);
+        let currentValue = 0;
+        const increment = targetValue / 100; // Increment value for smooth animation
+        const speed = 50; // Speed of increment
+
+        const interval = setInterval(function () {
+            currentValue += increment;
+            if (currentValue >= targetValue) {
+                currentValue = targetValue;
+                clearInterval(interval); // Stop the animation when the target is reached
+            }
+            counter.innerText = Math.round(currentValue);
+        }, speed);
+    }
+
+    // Start the counter animation
+    animateCounter('installedCapacity', counters.installedCapacity);
+    animateCounter('windTurbines', counters.windTurbines);
+    animateCounter('solarPanels', counters.solarPanels);
+    animateCounter('projectsCompleted', counters.projectsCompleted);
+});
+
  /*Gallery js main */
  
  

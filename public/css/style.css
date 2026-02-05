@@ -986,7 +986,7 @@ html, body {
 }
 
 h3 {
-  font-weight: 700;
+  font-weight: 500;
   color: #274291;
 }
 
@@ -1006,6 +1006,10 @@ h4 {
   margin-bottom: 40px;
 }
 
+.br15 {
+  border-radius: 15px;
+}
+
 .hm-flex-center {
   display: flex;
   justify-content: center;
@@ -1016,6 +1020,42 @@ h4 {
   background-color: #fff;
 }
 
+.counter-item {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  height: 100%;
+  margin-top: 15px;
+}
+
+.counter-item:hover {
+  transform: scale(1.05);
+}
+
+.counter {
+  font-size: 35px;
+  font-weight: 800;
+  color: #3e3e3e;
+  margin-bottom: 10px;
+}
+
+.counter p {
+  font-size: 16px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .counter-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.hm-info-wrap {
+  text-align: center;
+}
 .hm-info-wrap h2 {
   color: #3a5ea5;
   font-weight: 600;
@@ -1063,8 +1103,31 @@ h4 {
   padding: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+.hm-ab-wrap h3 {
+  font-weight: 700;
+}
 .hm-ab-wrap .hm-ab-head-box, .hm-ab-wrap .hm-ab-txt-box {
   padding: 20px;
+}
+
+.pro-box {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 15px;
+  height: 100%;
+  border-radius: 15px;
+}
+.pro-box h3 {
+  font-size: 25px;
+}
+
+.hm1-btn {
+  margin-top: 30px;
+}
+.hm1-btn a {
+  background-color: #274291;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .home-products-heading-box {
@@ -1494,18 +1557,20 @@ h4 {
 
 .value-points {
   display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
 }
 .value-points i {
   background-color: #274291;
   color: #fff;
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
-  line-height: 30px;
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
   text-align: center;
 }
 .value-points .ab-points {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
   margin-left: 15px;
 }

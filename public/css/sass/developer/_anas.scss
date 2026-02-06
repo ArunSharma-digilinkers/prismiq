@@ -38,6 +38,17 @@ margin-bottom: 40px;
     align-items: center;
 }
 
+.hm1-btn {
+    margin-top: 30px;
+
+    a {
+        background-color: $color-primary;
+        color: #fff;
+        padding: 12px;
+        border-radius: 15px;
+    }
+}
+
 .hm-about-wrapper {
     background-color: #fff;
     // background-image: url('../img/bvc-1.png');
@@ -47,7 +58,14 @@ margin-bottom: 40px;
 }
 
 
+//////////////////////// HERO SECTION CSS ////////////////////////
 
+.hm-hero-section {
+    background-image: url('../img/hm-info-bg-img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .counter-item {
     text-align: center;
@@ -112,8 +130,8 @@ margin-bottom: 40px;
 
     .hm-about-icon-wrap img {
         background-color: #fff;
-    padding: 8px;
-    border-radius: 10px;
+        padding: 8px;
+        border-radius: 10px;
     }
 
     .icon-width {
@@ -133,8 +151,9 @@ margin-bottom: 40px;
 }
 
 
+//////////////////////// WELCOME SECTION CSS ////////////////////////
+
 .hm-ab-wrap {
-    background-color: #f0f2f7;
 
     .hm-ab-box {
         background-color: #fff;
@@ -151,183 +170,74 @@ margin-bottom: 40px;
     }
 }
 
+//////////////////////// HOME PRODUCTS CSS ////////////////////////
 
+.hm-product-wrap  {
+  background-color: #f0f2f7;
+
+.product-heading-box {
+    text-align: center;
+}
 
 .pro-box {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 15px;
     height: 100%;
     border-radius: 15px;
+    background-color: #fff;
 
     h3 {
         font-size: 25px;
     }
 }
 
-.hm1-btn {
-
-    margin-top: 30px;
-
-    a {
-        background-color: $color-primary;
-        color: #fff;
-        padding: 10px;
-        border-radius: 10px;
-    }
 }
 
-///////// home products //////////
+//////////////////////// MISSION SECTION CSS ////////////////////////
 
-.home-products-heading-box {
-    text-align: center;
-    margin-bottom: 40px;
-}
+.hm-mission-wrapper {
+    margin-bottom: 60px;
 
-.home-product-wrapper {
-    background-color: #137efe1a;
-}
-
-.home-product-wrapper .card {
-    transition: all 0.4s ease-in;
-    border: none;
-    margin: 25px auto;
-    cursor: pointer;
-    overflow: hidden;
-
-}
-
-.home-product-wrapper .card img {
-    transition: all 0.4s ease-in;
-}
-
-.home-product-wrapper .card:hover img {
-    transform: scale(1.1);
-}
-
-.home-product-wrapper .card:hover .product-detail {
-    background-color: rgb(0 0 0 / 64%);
-}
-
-.product-detail {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    overflow: hidden;
-    transition: all 0.35s;
-    box-sizing: border-box;
+.mission-wrap {
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 25px;
+    border-radius: 15px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+    margin-top: -50px;
 
-.home-product-wrapper .card:hover h5 {
-    display: block;
-}
-
-.card .product-detail h5 {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    display: none;
-}
-
-.product-detail blockquote {
-    padding: 0;
-    margin: 0;
-    font-size: 1em;
-    color: #fff;
-}
-
-.card .product-detail p {
-    color: #ffffff;
-    font-weight: 500;
-    display: none;
-    padding: 30px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.29);
-    margin: 20px;
-    transition: all 0.4s ease-in;
-}
-
-.home-product-wrapper .card:hover p {
-    display: block;
-}
-
-// .hm-btn-1 a {
-//     color: #fff;
-//     background-color: #137efe;
-//     padding: 12px 30px;
-//     border-radius: 50px;
-//     font-weight: 500;
-// }
-
-
-
-///////// Faq Css /////////////////
-
-.faq-wrapper {
-    // background-image: url(../img/faq-bg-img.png);
-    // background-repeat: no-repeat;
-    // background-position: center;
-    // background-size: cover;
-    // padding: 100px 0;
-}
-
-.faq-content {
-      max-width: 600px;
-      margin: 20px auto;
-      font-family: "Quicksand", sans-serif;
+    img {
+        width: 250px;
     }
 
-    .faq-item {
-    border: 1px solid #e4e4e4;
-    padding: 20px;
-    cursor: pointer;
-    background-color: #27429112;
-    //   border-bottom: 1px solid #ccc;
+    .value-txt-wrap {
+        margin-left: 15px;
     }
 
-    .faq-question {
-        font-weight: 700;
-        margin: 0;
-        font-size: 16px;
+    h4{
+        color: #274291;
+        font-weight: 500;
+        margin-bottom: 5px;
     }
 
-//     .faq-question:after {
-//     content: "+";
-//     position: absolute;
-//     right: 0;
-//     top: 0;
-//     font-size: 24px;
-//     color: #000;
-// }
-
-    .faq-answer {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.3s ease;
+    p {
+        line-height: 25px;
     }
+}
 
-    .faq-item.active .faq-answer {
-      max-height: 200px; /* adjust based on answer length */
-      margin-top: 8px;
-    }
+}
 
+//////////////////////// WHY CHOOSE CSS ////////////////////////
 
-
-////////////// why choose css ////////////////
 .why-choose-wrapper {
     background-image: url(../img/bg-img-2.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
-    background-color: rgb(0 0 0 / 70%);
+    background-color: rgb(0 0 0 / 60%);
     background-attachment: fixed;
 
     p {
@@ -381,57 +291,70 @@ margin-bottom: 40px;
     line-height: 30px;
     text-align: center;
     margin-bottom: 33px;
-}
+}   
 
-.ab-points
- {
-    font-size: 20px;
-    font-weight: 400;
-    margin-left: 15px;
-}
+
+    .ab-points {
+        font-size: 17px;
+        font-weight: 500;
+        margin-left: 15px;
+    }
+
     }
 
 }
 
+.form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: auto;
+        }
+        .form-container input[type="text"],
+        .form-container input[type="email"],
+        .form-container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-container input[type="submit"] {
+            background-color: #31519c;
+            color: white;
+            cursor: pointer;
+        }
+        .form-container input[type="submit"]:hover {
+            background-color: #31519c;
+    }
 
-.bg-wrapper {
-    background-image: url(../img/bg-img.jpg);
+//////////////////////// HOME TESTIMONIALS CSS ////////////////////////
+
+
+.testimonials-wrapper {
+    background-image: url('../img/hm-info-bg-img.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 120px 0;
 
-    .bg-heading-box h2 {
-       font-size: 50px;
-       color: #fff;
-       font-weight: 800;
-    }
-
-    p {
-        color: #fff;
-    }
-}
-
-
-//////////// testimonials //////////
-
-.testimonials-wrapper {
     .test-heading-box {
        text-align: center;
     } 
 }
 
 .test-wrap {
-	 background: linear-gradient(135deg, #274291, #3e64aa);
+	 background: #ffffffad;
     padding: 30px;
     border-radius: 5px;
     height: 100%;
-	display: flex;
-    justify-content: center;
-    align-items: center;
+	// display: flex;
+    // justify-content: center;
+    // align-items: center;
     flex-direction: column;
-    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
 
 .test-img-box img {
     width: 115px!important;
@@ -439,12 +362,7 @@ margin-bottom: 40px;
 }
 
 .testi-box {
-    p {
-        color: #fff;
-    }
-    h6 {
-        color: #fff;
-    }
+
 }
 
 .test-name-box {
@@ -474,6 +392,10 @@ margin-bottom: 40px;
     display: none;
 }
 
+
+.checked {
+  color: orange;
+}
 
 ///////////////////////////////////////////////////// ABOUT US PAGE /////////////////////////////////////////////////
 

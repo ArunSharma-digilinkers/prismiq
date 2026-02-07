@@ -63,7 +63,7 @@
                                     <div class="col-lg-4 col-md-4 col-m-12">
                                         <div class="counter-item">
                                             <div class="counter" id="installedCapacity">0</div>
-                                            <p>Installed Capacity</p>
+                                            <p>Installed <br>Capacity</p>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-m-12">
@@ -124,6 +124,38 @@
                     </div>
                 </div>
             </div>
+
+<!-- ///////////////////////////// HOME INDUSTRIES SECTION ///////////////////////////// -->
+
+            <div class="hm-industries-wrapper section-entry">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 mb-4">
+                <h3>Industries We Serve</h3>
+                <p>We provide cutting-edge solutions to a diverse range of industries. Our expertise spans various fields, ensuring that each sector receives tailored support to meet its unique challenges. Whether it's sustainable energy, healthcare, finance, or technology, we are dedicated to driving success and innovation wherever we operate.</p>
+            </div>
+            <div class="col-lg-12 col-md-12">
+                <div class="home-industry owl-carousel owl-theme">
+                    <div class="item industry-box-1">
+                        <div class="txt-box">
+                            <h3>Automotive Industries</h3>
+                        </div>
+                    </div>
+                    <div class="item industry-box-2">
+                        <div class="txt-box">
+                            <h3>Residential & Commercial</h3>
+                        </div>
+                    </div>
+                    <div class="item industry-box-3">
+                        <div class="txt-box">
+                            <h3>Agriculture & Warehousing</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <!-- ///////////////////////////// HOME PRODUCTS SECTION ///////////////////////////// -->
@@ -342,7 +374,7 @@
                                             reliable.”
                                         </p>
                                         <div class="name-txt-box">
-                                            <h6><span>Ramesh Chauhan</span><br>Our Client</h6>
+                                            <h6><span>Ramesh Chauhan</span><br>Happy Client</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -363,7 +395,7 @@
                                             responsive. Highly recommended for home solar users!”
                                         </p>
                                         <div class="name-txt-box">
-                                            <h6><span>Priya Mehta</span><br>Our Client</h6>
+                                            <h6><span>Priya Mehta</span><br>Happy Client</h6>
                                         </div>
                                     </div>
                                 </div>

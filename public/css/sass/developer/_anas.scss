@@ -8,7 +8,8 @@ html,body {
 }
 
 h3 {
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 700;
     color: $color-primary;
 }
 
@@ -71,10 +72,9 @@ margin-bottom: 40px;
     text-align: center;
     background-color: #ffffff;
     border-radius: 15px;
-    padding: 20px;
+    padding: 20px 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-    height: 100%;
     margin-top: 15px;
 }
 
@@ -86,7 +86,6 @@ margin-bottom: 40px;
     font-size: 35px;
     font-weight: 800;
     color: #3e3e3e;
-    margin-bottom: 10px;
 }
 
 .counter p {
@@ -170,6 +169,83 @@ margin-bottom: 40px;
     }
 }
 
+//////////////////////// HOME INDUSTRIES CSS ////////////////////////
+
+.hm-industries-wrapper {
+    background-image: url('../img/industry-bg-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #ffffffb0;
+}
+
+
+
+.home-industry .item {
+    position: relative;
+    height: 400px; /* Fixed height for consistency */
+    border-radius: 30px; /* Rounded corners for a more unique card shape */
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease; /* Smooth scale and shadow effects */
+    overflow: hidden;
+}
+
+/* Specific background images for each item */
+.home-industry .item.industry-box-1 {
+    background-image: url('../img/industry1-img.jpg');
+}
+
+.home-industry .item.industry-box-2 {
+    background-image: url('../img/industry2-img.jpg');
+}
+
+.home-industry .item.industry-box-3 {
+    background-image: url('../img/industry3-img.jpg');
+}
+
+.home-industry .item:hover {
+   
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3); /* Enhance the shadow on hover */
+}
+
+.home-industry .item .txt-box {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    right: 30px;
+    background-color: rgba(39, 66, 145, 0.8);
+    padding: 26px 20px;
+    border-radius: 15px;
+    opacity: 1;
+    
+   
+}
+
+
+
+.home-industry .item .txt-box h3 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+
+/* Optional: Add a hover animation for better interactivity */
+.home-industry .item:hover .txt-box h3 {
+    color: #f8f8f8; /* Slight text color change on hover */
+}
+
+.home-industry .owl-carousel .owl-nav, .home-industry .owl-carousel .owl-dots {
+    display: none; /* Hide default navigation */
+}
+
+
 //////////////////////// HOME PRODUCTS CSS ////////////////////////
 
 .hm-product-wrap  {
@@ -188,6 +264,7 @@ margin-bottom: 40px;
 
     h3 {
         font-size: 25px;
+        font-weight: 500;
     }
 }
 
@@ -368,6 +445,7 @@ margin-bottom: 40px;
 .test-name-box {
     display: flex;
     align-items: center;
+
 }
 
 
@@ -396,6 +474,7 @@ margin-bottom: 40px;
 .checked {
   color: orange;
 }
+
 
 ///////////////////////////////////////////////////// ABOUT US PAGE /////////////////////////////////////////////////
 

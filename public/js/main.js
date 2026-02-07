@@ -57,7 +57,7 @@ $(document).ready(function () {
 
 
 
-$('.home-products').owlCarousel({
+$('.home-industry').owlCarousel({
     loop:true,
     margin:10,
     nav:true,

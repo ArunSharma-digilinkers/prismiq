@@ -864,8 +864,7 @@ body.dark .c-btn:hover {
   top: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  -webkit-backdrop-filter: blur(4px);
-          backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
   z-index: 100;
   transition: all 0.5s;
 }
@@ -1018,17 +1017,28 @@ h4 {
 }
 
 .hm1-btn {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .hm1-btn a {
-  background-color: #274291;
+  display: inline-block;
+  padding: 12px 24px;
   color: #fff;
-  padding: 12px;
-  border-radius: 15px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #4a90e2, #007bff);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
 }
-
-.hm-about-wrapper {
-  background-color: #fff;
+.hm1-btn a:hover {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  box-shadow: 0 6px 16px rgba(0, 123, 255, 0.4);
+  transform: translateY(-2px);
+}
+.hm1-btn a:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.2);
 }
 
 .hm-hero-section {
@@ -1393,13 +1403,14 @@ h4 {
   display: flex;
 }
 .ab-info-values-wrapper .value-points i {
-  background-color: #274291;
-  color: #fff;
+  background-color: #fff;
+  color: #274291;
   border-radius: 50%;
   height: 30px;
   width: 30px;
   line-height: 30px;
   text-align: center;
+  border: 2px solid #274291;
 }
 .ab-info-values-wrapper .value-points .ab-points {
   font-size: 20px;
@@ -1480,13 +1491,92 @@ h4 {
   padding: 10px;
 }
 
+.prismiq-info-wrapper h4 {
+  font-weight: 500;
+}
+.prismiq-info-wrapper .value-points i {
+  background-color: #fff;
+  color: #274291;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  line-height: 23px;
+  text-align: center;
+  border: 2px solid #274291;
+}
+
+.brand-cta-section {
+  background: #020024;
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 48%, rgb(0, 212, 255) 100%);
+  padding: 80px 120px;
+  text-align: center;
+}
+.brand-cta-section h2 {
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.brand-cta-section .cta-btns {
+  margin-top: 40px;
+}
+.brand-cta-section .btn-outline {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 14px 34px;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+.brand-why-choose .heading-box {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.brand-why-choose .heading-box h4 {
+  font-weight: 500;
+}
+.brand-why-choose .why-box {
+  padding: 30px;
+  border-radius: 10px;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #f0f2f7;
+  text-align: center;
+}
+.brand-why-choose .why-box h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #274291;
+  margin-bottom: 12px;
+}
+.brand-why-choose .why-box .icon-box {
+  margin-bottom: 20px;
+}
+.brand-why-choose .why-box i {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+  background: #274291;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 31px;
+  color: #fff;
+}
+.brand-why-choose .why-box:hover {
+  transform: scale(0.95);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
 .batteries-wrapper {
-  background-color: rgba(239, 239, 239, 0.65);
+  background-color: #f0f2f7;
 }
 .batteries-wrapper h2 {
   text-align: center;
-  font-weight: 700;
   margin-bottom: 40px;
+  font-size: 30px;
 }
 
 .batteries-card-wrap {
@@ -1520,7 +1610,7 @@ h4 {
 
 .product-card-wrap {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  background-color: #f7f7f7;
+  background-color: #fff;
   padding: 25px;
   height: 100%;
   border-radius: 15px;

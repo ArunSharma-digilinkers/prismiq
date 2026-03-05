@@ -559,6 +559,140 @@ margin-bottom: 40px;
    
 }
 
+
+.form-container{
+background:$color-primary;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.tabs{
+display:flex;
+justify-content:space-between;
+margin-bottom:20px;
+}
+
+.tab{
+flex:1;
+padding:10px;
+border:none;
+background:#fff;
+cursor:pointer;
+border-radius:20px;
+margin:3px;
+}
+
+.tab.active{
+background:#000;
+color: #fff;
+}
+
+.form-section{
+display:none;
+flex-direction:column;
+}
+
+.form-section.active{
+display:flex;
+}
+
+label{
+margin-top:12px;
+font-size:14px;
+color: #fff;
+}
+
+input{
+padding:10px;
+margin-top:5px;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+.bill-options{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin-top:10px;
+}
+
+.bill-options button{
+border:1px solid #ccc;
+background:white;
+padding:8px 12px;
+border-radius:8px;
+cursor:pointer;
+}
+
+.bill-options button:hover{
+background:#eee;
+}
+
+.checkbox{
+margin-top:15px;
+font-size:12px;
+
+span {
+    color: #fff;
+}
+}
+
+.field{
+display:flex;
+flex-direction:column;
+width:100%;
+}
+
+.field label{
+font-size:14px;
+margin-bottom:6px;
+color:#fff;
+}
+
+.field input{
+width:100%;
+padding:12px;
+border-radius:8px;
+border:1px solid #d1d5db;
+font-size:14px;
+box-sizing:border-box;
+}
+
+.designation{
+margin-bottom:20px;
+}
+
+.designation-buttons{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin-top:10px;
+}
+
+.designation-buttons button{
+padding:10px 14px;
+border:1px solid #ccc;
+background:white;
+border-radius:8px;
+cursor:pointer;
+}
+
+.designation-buttons button.active{
+background:#e6efff;
+border-color:#5a8cff;
+}
+
+.submit-btn{
+margin-top:20px;
+background:#fff;
+color:#000;
+border:none;
+padding:12px;
+border-radius:25px;
+cursor:pointer;
+}
+
 ///////////////////////////////////////////////////// MANAGEMENT PAGE /////////////////////////////////////////////////
 
 .certificate-box {

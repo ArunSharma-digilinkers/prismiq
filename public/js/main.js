@@ -98,6 +98,23 @@ $('.testimonials').owlCarousel({
 })
 
 
+const tabs = document.querySelectorAll(".tab");
+const forms = document.querySelectorAll(".form-section");
+
+tabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+
+        tabs.forEach(btn => btn.classList.remove("active"));
+        forms.forEach(form => form.classList.remove("active"));
+
+        tab.classList.add("active");
+
+        const target = tab.getAttribute("data-tab");
+        document.getElementById(target).classList.add("active");
+    });
+});
+
+
 document.querySelectorAll('.faq-question').forEach(question => {
     question.addEventListener('click', () => {
         const faqItem = question.parentElement;

@@ -79,7 +79,7 @@
                 </li>
                 <li class="nav-item">
                     <div class="calculator-btn">
-                        <a href="hm-calculator">Connect with us</a>
+                        <a href="<?php echo $path; ?>solar-calculator">Solar Calculator</a>
                     </div>
                 </li>
             </ul>

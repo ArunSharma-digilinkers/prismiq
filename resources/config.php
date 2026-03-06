@@ -12,7 +12,7 @@ defined('TEMPLATE_FRONT') ? null : define('TEMPLATE_FRONT', __DIR__ . DS . 'temp
 $company = "Prismiq";
 
 // Localhost settings
-$path = '/prismiq/public/';
+$path = '/projects/prismiq/public/';
 
 
 defined('DB_HOST') ? null : define('DB_HOST', 'localhost');

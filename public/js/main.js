@@ -57,7 +57,7 @@ $(document).ready(function () {
 
 
 
-$('.home-products').owlCarousel({
+$('.home-industry').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -69,10 +69,10 @@ $('.home-products').owlCarousel({
             items:1
         },
         600:{
-            items:3
+            items:2
         },
         1000:{
-            items:3
+            items:2
         }
     }
 })
@@ -92,10 +92,27 @@ $('.testimonials').owlCarousel({
             items:2
         },
         1000:{
-            items:3
+            items:2
         }
     }
 })
+
+
+const tabs = document.querySelectorAll(".tab");
+const forms = document.querySelectorAll(".form-section");
+
+tabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+
+        tabs.forEach(btn => btn.classList.remove("active"));
+        forms.forEach(form => form.classList.remove("active"));
+
+        tab.classList.add("active");
+
+        const target = tab.getAttribute("data-tab");
+        document.getElementById(target).classList.add("active");
+    });
+});
 
 
 document.querySelectorAll('.faq-question').forEach(question => {
@@ -167,6 +184,39 @@ var swiper = new Swiper(".flipSwiper", {
     },
 });
 
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Counter values
+    const counters = {
+        installedCapacity: 500,
+        windTurbines: 650,
+        solarPanels: 100,
+        projectsCompleted: 150
+    };
+
+    // Function to animate the counter
+    function animateCounter(id, targetValue) {
+        const counter = document.getElementById(id);
+        let currentValue = 0;
+        const increment = targetValue / 100; // Increment value for smooth animation
+        const speed = 50; // Speed of increment
+
+        const interval = setInterval(function () {
+            currentValue += increment;
+            if (currentValue >= targetValue) {
+                currentValue = targetValue;
+                clearInterval(interval); // Stop the animation when the target is reached
+            }
+            counter.innerText = Math.round(currentValue);
+        }, speed);
+    }
+
+    // Start the counter animation
+    animateCounter('installedCapacity', counters.installedCapacity);
+    animateCounter('windTurbines', counters.windTurbines);
+    animateCounter('solarPanels', counters.solarPanels);
+    animateCounter('projectsCompleted', counters.projectsCompleted);
+});
 
  /*Gallery js main */
  

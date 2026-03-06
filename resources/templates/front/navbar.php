@@ -1,19 +1,3 @@
-<!-- <div class="back-top">
-    <div class="container">
-        <div class="top-bar-wrap">
-            <div class="top-bar">
-                <p><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;<a href="tel:+91 7428466522">+91 7428466522</a> ,<a href="tel:+91 9599568529">+91 9599568529</a></p>
-            </div>
-            <div class="top-bar">
-                <p class="text-white"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:business@prismiqind.com">business@prismiqind.com</a></p>
-            </div>
-            <div class="top-bar">
-                <p class="text-white"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp; <span>Surajpur Industrial
-                        Area, Gr. Noida, UP</span></p>
-            </div>
-        </div>
-    </div>
-</div> -->
 <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
     <div class="container">
         <a class="navbar-brand" href="<?php echo $path; ?>">
@@ -92,6 +76,11 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo $path; ?>contact-us">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <div class="calculator-btn">
+                        <a href="hm-calculator">Connect with us</a>
+                    </div>
                 </li>
             </ul>
         </div>

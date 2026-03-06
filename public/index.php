@@ -13,88 +13,82 @@
 
         <div class="main-cover">
 
-
-<!-- ///////////////////////////// HOME INFO SECTION ///////////////////////////// -->
-
-            <div class="hm-about-wrapper section-entry">
+            <div class="hm-hero-section section-entry" data-aos="fade-up">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-5 col-md-5 col-sm-12" data-aos="fade-right">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
                             <div class="hm-info-wrap">
-                                <h2>Welcome To Prismiq Industries</h2>
-                                <h4>Prismiq Industries is a global leader in the production and supply of advanced lead acid batteries. </h4>
+                                <h3>Empowering the Future with Sustainable Energy</h3>
                                 <p>
-                                    Prismiq Industries is a global leader in the manufacturing and supply of cutting-edge lead-acid batteries, serving diverse sectors including automotive, industrial, and renewable energy. With decades of experience and a commitment to excellence, we deliver reliable, high-performance battery solutions that meet international standards.
-                                </p>
-                                <p>
-                                    Our mission is to empower homes, businesses, and industries with energy systems that offer consistency, safety, and durability — even in the most demanding conditions. At Prismiq, innovation meets reliability to create energy storage you can count on.
+                                    Prismiq Industries is a global leader in the manufacturing and supply of
+                                    cutting-edge lead-acid batteries, serving diverse sectors including automotive,
+                                    industrial, and renewable energy. With decades of experience and a commitment to
+                                    excellence, we deliver reliable, high-performance battery solutions that meet
+                                    international standards.
                                 </p>
 
-                                <div class="hr-spacer mb-4">
-                                    <!-- Button type 4 -->
-                                    <a href="company-profile" class="btn c-btn s4"><span>Read More</span></a>
-                                </div>
                             </div>
                         </div>
-                        <div class="col-lg-7 col-md-7 col-sm-12">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-12 mb-4" data-aos="fade-up">
-                                    <div class="hm-about-box box-1">
-                                        <div class="hm-about-icon-wrap">
-                                            <img src="img/icon-1.png" class="img-fluid icon-width">
-                                        </div>
-                                        <h5>Superior Performance</h5>
-                                        <p>
-                                            Engineered for high efficiency and consistent power delivery, our batteries
-                                            ensure optimal performance.
-                                        </p>
-                                    </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+                            <h4>We Have 15+ Years Of Experience</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea dolor tenetur ratione
+                                quisquam sint optio minima totam consectetur dignissimos nemo omnis maxime placeat
+                                officiis recusandae a, incidunt voluptatem, ad voluptates deleniti dicta deserunt.
+                                Dolorem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quae voluptatem
+                                quibusdam deleniti animi maiores!
+                            </p>
+                            <div class="value-points">
+                                <div class="choose-icon">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 mb-4" data-aos="fade-up">
-                                    <div class="hm-about-box box-2">
-                                        <div class="hm-about-icon-wrap">
-                                            <img src="img/icon-2.png" class="img-fluid icon-width">
-                                        </div>
-                                        <h5>Durability</h5>
-                                        <p>
-                                            Built to last, Prismiq batteries are designed to withstand extreme
-                                            conditions.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 mb-4" data-aos="fade-up">
-                                    <div class="hm-about-box box-3">
-                                        <div class="hm-about-icon-wrap">
-                                            <img src="img/icon-3.png" class="img-fluid icon-width">
-                                        </div>
-                                        <h5>Customization</h5>
-                                        <p>
-                                            We provide tailored battery solutions to meet your specific requirements,
-                                            ensuring flexibility.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 mb-4" data-aos="fade-up">
-                                    <div class="hm-about-box box-4">
-                                        <div class="hm-about-icon-wrap">
-                                            <img src="img/icon-4.png" class="img-fluid icon-width">
-                                        </div>
-                                        <h5>Strong Customer Support</h5>
-                                        <p>
-                                            Our dedicated support team offers quick response and expert guidance.
-                                        </p>
-                                    </div>
+                                <div class="icon-details">
+                                    <p class="ab-points">Satisfaction Value For Money Solution</p>
                                 </div>
                             </div>
+                            <div class="value-points">
+                                <div class="choose-icon">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                </div>
+                                <div class="icon-details">
+                                    <p class="ab-points">The world as it is Heavily Dependent</p>
+                                </div>
+                            </div>
+                            <section class="counter-section">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4 col-m-12">
+                                        <div class="counter-item">
+                                            <div class="counter" id="installedCapacity">0</div>
+                                            <p>Installed <br>Capacity</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-m-12">
+                                        <div class="counter-item">
+                                            <div class="counter" id="windTurbines">0</div>
+                                            <p>Wind Turbines<br> Installed</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-m-12">
+                                        <div class="counter-item">
+                                            <div class="counter" id="solarPanels">0</div>
+                                            <p>Solar Panels<br> Installed</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
                         </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 mt-4" data-aos="fade-left">
+                            <img src="img/hm-info-img-1.jpg" class="img-fluid br15">
+                        </div>
+
                     </div>
                 </div>
             </div>
 
-<!-- ///////////////////////////// HOME PRODUCTS SECTION ///////////////////////////// -->
+            <!-- ///////////////////////////// HOME ABOUT SECTION ///////////////////////////// -->
 
 
-            <div class="hm-ab-wrap section-entry">
+            <div class="hm-ab-wrap section-entry" data-aos="fade-up">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12">
@@ -103,18 +97,30 @@
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12 hm-flex-center">
                                         <div class="hm-ab-head-box">
-                                            <h3>Welcome To Prismiq Industries</h3>
-                                            <h4>Prismiq Industries is a global leader in the production and supply of advanced lead acid batteries.</h4>
+                                            <h2>Welcome To Prismiq Industries</h2>
+                                            <p class="hm-text">Prismiq Industries is a global leader in the production
+                                                and supply of
+                                                advanced lead acid batteries.</p>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="hm-ab-txt-box">
                                             <p>
-                                                Prismiq Industries is a global leader in the manufacturing and supply of cutting-edge lead-acid batteries, serving diverse sectors including automotive, industrial, and renewable energy. With decades of experience and a commitment to excellence, we deliver reliable, high-performance battery solutions that meet international standards.
+                                                Prismiq Industries is a global leader in the manufacturing and supply of
+                                                cutting-edge lead-acid batteries, serving diverse sectors including
+                                                automotive, industrial, and renewable energy. With decades of experience
+                                                and a commitment to excellence, we deliver reliable, high-performance
+                                                battery solutions that meet international standards.
                                             </p>
                                             <p>
-                                                Our mission is to empower homes, businesses, and industries with energy systems that offer consistency, safety, and durability — even in the most demanding conditions. At Prismiq, innovation meets reliability to create energy storage you can count on.
+                                                Our mission is to empower homes, businesses, and industries with energy
+                                                systems that offer consistency, safety, and durability — even in the
+                                                most demanding conditions. At Prismiq, innovation meets reliability to
+                                                create energy storage you can count on.
                                             </p>
+                                            <div class="hm-two-btn">
+                                                <a href="<?php echo $path; ?>company-profile">Read More</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -124,193 +130,181 @@
                 </div>
             </div>
 
-            <!-- <div class="home-product-wrapper section-entry" data-aos="fade-up">
+            <!-- ///////////////////////////// HOME INDUSTRIES SECTION ///////////////////////////// -->
+
+            <div class="hm-industries-wrapper section-entry">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12">
-                            <div class="home-products-heading-box">
-                                <h3>Our Wide Range Products</h3>
+                        <div class="col-lg-12 col-md-12 mb-4">
+                            <h3 class="text-center">Industries We Serve</h3>
+                            <p class="text-center">
+                                We provide cutting-edge solutions to a diverse range of industries. Our expertise spans
+                                various fields, ensuring that each sector receives tailored support to meet its unique
+                                challenges. Whether it's sustainable energy, healthcare, finance, or technology, we are
+                                dedicated to driving success and innovation wherever we operate.
+                            </p>
+                        </div>
+                        <div class="col-lg-12 col-md-12">
+                            <div class="home-industry owl-carousel owl-theme">
+                                <div class="item industry-box-1">
+                                    <div class="txt-box">
+                                        <h3>Automotive Industries</h3>
+                                    </div>
+                                </div>
+                                <div class="item industry-box-2">
+                                    <div class="txt-box">
+                                        <h3>Residential & Commercial</h3>
+                                    </div>
+                                </div>
+                                <div class="item industry-box-3">
+                                    <div class="txt-box">
+                                        <h3>Agriculture & Warehousing</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ///////////////////////////// HOME PRODUCTS SECTION ///////////////////////////// -->
+
+
+            <div class="hm-product-wrap section-entry" data-aos="fade-up">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
+                            <div class="product-heading-box">
+                                <h3>Our Products and Services</h3>
+                                <h5>Comprehensive Energy Solutions for a Greener Tomorrow</h5>
                                 <p>
-                                    At Prismiq Industries, we offer a diverse portfolio of advanced lead-acid battery solutions engineered to meet the power needs of various sectors. Built for performance, durability, and efficiency — our batteries support modern mobility, agriculture, and renewable energy demands.
+                                    We offer a range of innovative energy solutions to meet the growing demand for clean
+                                    and efficient energy. Our services are designed to provide optimal energy
+                                    generation, integration, storage, and consultancy for businesses and communities
+                                    seeking to transition to sustainable energy solutions.
                                 </p>
                             </div>
-                            <div class="home-products owl-carousel owl-theme">
-                                <div class="item">
-                                    <a href="">
-                                        <div class="card mb-3">
-                                            <img class="card-img-top" src="img/truck-pro-img.jpg" alt="Card image cap">
-                                            <div class="product-detail">
-                                                <h5 class="card-title heading text-center">Tractor Batteries</h5>
-                                                <blockquote>
-                                                    <p>
-                                                        Heavy-duty batteries designed for rugged farm equipment. With enhanced cranking power and long service life, our tractor batteries keep agricultural machinery moving without interruption.
-                                                    </p>
-                                                </blockquote>
-                                               
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="">
-                                        <div class="card mb-3">
-                                            <img class="card-img-top" src="img/automotive-pro-img.jpg"
-                                                alt="Card image cap">
-                                            <div class="product-detail">
-                                                <h5 class="card-title heading text-center">Automotive Batteries</h5>
-                                                <blockquote>
-                                                    <p>
-                                                        Prismiq Batteries is an emerging name in the automotive battery sector, focusing on advanced energy storage solutions tailored for electric vehicles (EVs).
-                                                    </p>
-                                                </blockquote>
-                                               
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="">
-                                        <div class="card mb-3">
-                                            <img class="card-img-top" src="img/solar-pro-img.jpg" alt="Card image cap">
-                                            <div class="product-detail">
-                                                <h5 class="card-title heading text-center">Solar Batteries</h5>
-                                                <blockquote>
-                                                    <p>
-                                                        Engineered to store solar energy efficiently, these batteries ensure uninterrupted power for homes and businesses. Ideal for off-grid and hybrid solar systems.
-                                                    </p>
-                                                </blockquote>
-                                                
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="item">
-                                    <a href="">
-                                        <div class="card mb-3">
-                                            <img class="card-img-top" src="img/e-rick-pro-img.jpg" alt="Card image cap">
-                                            <div class="product-detail">
-                                                <h5 class="card-title heading text-center">E-Rickshaw Batteries</h5>
-                                                <blockquote>
-                                                    <p>
-                                                        Specially crafted for high-efficiency electric rickshaws, our batteries deliver longer mileage, quick charging, and excellent deep-discharge recovery — perfect for urban and rural transport.
-                                                    </p>
-                                                </blockquote>
-                                                
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                            </div>
                         </div>
-                    </div>
-                </div>
-            </div> -->
-
-
-            <!-- /////////// FAQ section ///////////// -->
-
-            <div class="faq-wrapper section-entry" data-aos="fade-up">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12">
-                            <div class="faq-header text-center">
-                                <h3>Frequently Asked Questions</h3>
-                            </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
+                            <img src="img/energy-storage-img.jpg" class="img-fluid br15">
                         </div>
-                        <div class="col-lg-2 col-md-2 col-sm-12">
-
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <div class="faq-content">
-                                        <div class="faq-item active mb-3">
-                                            <h4 class="faq-question">What types of batteries does Prismiq Industries
-                                                manufacture?</h4>
-                                            <div class="faq-answer" style="display: block;">
-                                                <p>
-                                                    We manufacture a wide range of lead-acid batteries including inverter batteries, e-rickshaw batteries, solar batteries, and batteries for agricultural and industrial use.
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                        <div class="faq-item mb-3">
-                                            <h4 class="faq-question">What is the lifespan of a Prismiq lead-acid
-                                                battery?</h4>
-                                            <div class="faq-answer">
-                                                <p>
-                                                    Depending on usage and maintenance, our batteries typically last between 3 to 5 years, with some models offering extended life cycles.
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                        <div class="faq-item mb-3">
-                                            <h4 class="faq-question">How do I choose the right battery for my needs?
-                                            </h4>
-                                            <div class="faq-answer">
-                                                <p>
-                                                    Our experts can guide you based on your power load, usage pattern, and system compatibility. You can also explore our product range online or contact our support team.
-                                                </p>
-                                            </div>
-                                        </div>
-
-                                        <div class="faq-item mb-3">
-                                            <h4 class="faq-question">Are Prismiq batteries compatible with all inverters and solar systems?</h4>
-                                            <div class="faq-answer">
-                                                <p>
-                                                    Yes, our batteries are designed to be universally compatible with leading inverter and solar power systems for both home and commercial applications.
-                                                </p>
-                                            </div>
-                                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
+                            <div class="pro-box">
+                                <h3>Energy Generation</h3>
+                                <div class="info">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga
+                                        consequuntur obcaecati.
+                                    </p>
+                                    <div class="hm1-btn">
+                                        <a href="">Read More</a>
                                     </div>
-
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <div class="faq-content">
-                                        <div class="faq-item mb-3">
-                                            <h4 class="faq-question">Do you offer batteries for electric vehicles like
-                                                e-rickshaws?</h4>
-                                            <div class="faq-answer">
-                                                <p>
-                                                    Absolutely. Our high-efficiency e-rickshaw batteries offer longer mileage, quick charging, and robust backup for urban and rural mobility.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="faq-item mb-3">
-                                            <h4 class="faq-question">Do Prismiq batteries require regular maintenance?
-                                            </h4>
-                                            <div class="faq-answer">
-                                                <p>
-                                                    Most of our batteries are low-maintenance or maintenance-free. However, we recommend periodic checks for optimal performance.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="faq-item mb-3">
-                                            <h4 class="faq-question">Where can I buy Prismiq batteries?</h4>
-                                            <div class="faq-answer">
-                                                <p>
-                                                    You can purchase our batteries through authorized dealers, distributors, or directly from our website.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="faq-item mb-3">
-                                            <h4 class="faq-question">What warranty do Prismiq batteries come with?</h4>
-                                            <div class="faq-answer">
-                                                <p>
-                                                    All our batteries come with standard industry warranties ranging from 24 to 48 months, depending on the product type.
-                                                </p>
-                                            </div>
-                                        </div>
 
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
+                            <img src="img/energy-integration-img.jpg" class="img-fluid br15">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
+                            <div class="pro-box">
+                                <h3>Energy Storage Solutions</h3>
+                                <div class="info">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga
+                                        consequuntur obcaecati.
+                                    </p>
+                                    <div class="hm1-btn">
+                                        <a href="">Read More</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
+                            <img src="img/energy-storage.jpg" class="img-fluid br15">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
+                            <div class="pro-box">
+                                <h3>Energy Integration</h3>
+                                <div class="info">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga
+                                        consequuntur obcaecati.
+                                    </p>
+                                    <div class="hm1-btn">
+                                        <a href="">Read More</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
+                            <img src="img/energy-consultancy.jpg" class="img-fluid br15">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
+                            <div class="pro-box">
+                                <h3>Energy Consultancy</h3>
+                                <div class="info">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga
+                                        consequuntur obcaecati.
+                                    </p>
+                                    <div class="hm1-btn">
+                                        <a href="">Read More</a>
+                                    </div>
+                                </div>
 
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <!-- ///////////////////////////// HOME PRODUCTS SECTION ///////////////////////////// -->
+
+            <div class="big-img" data-aos="fade-up">
+                <img src="img/solar-panel-big-img.jpg" class="img-fluid">
+            </div>
+
+
+            <!-- ///////////////////////////// MISSION SECTION ///////////////////////////// -->
+
+            <div class="hm-mission-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 mb-4" data-aos="fade-right">
+                            <div class="mission-wrap">
+                                <div class="value-img-wrap">
+                                    <img src="img/mission-img.png" class="img-fluid img-width">
+                                </div>
+                                <div class="value-txt-wrap">
+                                    <h4>Our Mission</h4>
+                                    <p>To provide high-quality, sustainable, and affordable energy storage solutions
+                                        that empower people, businesses, and communities — while contributing to a
+                                        cleaner, more reliable energy future.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 mb-4" data-aos="fade-left">
+                            <div class="mission-wrap">
+                                <div class="value-img-wrap">
+                                    <img src="img/vision-img.png" class="img-fluid img-width">
+                                </div>
+                                <div class="value-txt-wrap">
+                                    <h4>Our Vision</h4>
+                                    <p>To provide high-quality, sustainable, and affordable energy storage solutions
+                                        that empower people, businesses, and communities — while contributing to a
+                                        cleaner, more reliable energy future.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- /////////////////////////////  WHY CHOOSE SECTION ///////////////////////////// -->
+
             <div class="why-choose-wrapper section-entry" data-aos="fade-up">
                 <div class="container">
                     <div class="row">
@@ -318,20 +312,20 @@
                             <h3>Why Choose Us</h3>
                             <p>
                                 At Prismiq Industries, we’re committed to delivering energy solutions that power
-                                progress. With a legacy of excellence in lead-acid and solar battery manufacturing,
-                                we combine innovation, reliability, and sustainability to meet the growing power
-                                needs of modern homes, businesses, and industries.
-
+                                progress. With a legacy of excellence in lead-acid and solar battery manufacturing, we
+                                combine innovation, reliability, and sustainability to meet the growing power needs of
+                                modern homes, businesses, and industries.
                             </p>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-right">
+                        <div class="col-lg-7 col-md-7 col-sm-12">
                             <div class="why-choose-txt-box">
                                 <div class="hm-value-points">
+
                                     <div class="choose-icon">
                                         <i class="fa fa-check" aria-hidden="true"></i>
                                     </div>
                                     <div class="icon-details">
-                                        <p class="ab-points">ISO-Certified Manufacturing</p>
+                                        <p class="ab-points">ISO Manufacturing</p>
                                     </div>
                                 </div>
                                 <div class="hm-value-points">
@@ -362,108 +356,83 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-left">
-                            <div class="value-wrap">
-                                <div class="value-img-wrap">
-                                    <img src="img/mission-img.png" class="img-fluid img-width">
-                                </div>
-                                <div class="value-txt-wrap">
-                                    <h3>Mission</h3>
-                                    <p>To provide high-quality, sustainable, and affordable energy storage solutions
-                                        that empower people, businesses, and communities — while contributing to a
-                                        cleaner, more reliable energy future.</p>
-                                </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12" data-aos="fade-left">
+                            <div class="form-container">
+                                <h4>Get a Free Consultation</h4>
+                                <form>
+                                    <input type="text" placeholder="Your Name" class="img-fluid" required>
+                                    <input type="email" placeholder="Your Email" class="img-fluid" required>
+                                    <input type="text" placeholder="Phone Number" class="img-fluid" required>
+                                   <div class="hm-two-btn">
+                                    <button class="btn">Submit</button>
+                                   </div>
+                                </form>
                             </div>
-                            <div class="value-wrap">
-                                <div class="value-img-wrap">
-                                    <img src="img/vision-img.png" class="img-fluid img-width">
-                                </div>
-                                <div class="value-txt-wrap">
-                                    <h3>Vision</h3>
-                                    <p>To be a global leader in battery innovation, driving energy independence and
-                                        environmental responsibility through cutting-edge technology and
-                                        customer-focused service.</p>
-                                </div>
-                            </div>
+
                         </div>
+
+
                     </div>
                 </div>
             </div>
-            <div class="bg-wrapper section-entry" data-aos="fade-up">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 colmd-6 col-sm-12">
-                            <div class="bg-heading-box">
-                                <h2>Solar Plans that Fit Your Needs</h2>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 colmd-6 col-sm-12">
-                            <div class="bg-heading-box">
-                                <p>Power your home or business with energy solutions designed for sustainability,
-                                    savings, and performance. At Prismiq Industries, we provide tailored solar battery
-                                    systems and inverter backup plans that ensure maximum efficiency and
-                                    reliability.Whether you need solar energy for residential rooftops, commercial
-                                    buildings, or off-grid locations, our customizable plans are built to meet your
-                                    exact power demands — all while reducing your electricity bills and carbon
-                                    footprint.
-                                </p>
-
-                                <div class="hr-spacer mrt30">
-                                    <!-- Button type 4 -->
-                                    <a href="contact-us" class="btn c-btn s4"><span>contact us</span></a>
-                                </div>
+        </div>
 
 
-                            </div>
+        <!-- /////////////////////////////  TESTIMONIALS SECTION ///////////////////////////// -->
+
+        <div class="testimonials-wrapper section-entry" data-aos="fade-up">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="test-heading-box mb-5">
+                            <h3>Testimonials</h3>
                         </div>
                     </div>
-                </div>
-            </div>
-
-
-            <div class="testimonials-wrapper section-entry" data-aos="fade-up">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12">
-                            <div class="test-heading-box mb-5">
-                                <h3>Testimonials</h3>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="testimonials owl-carousel owl-theme">
+                            <div class="item test-wrap">
+                                <div class="test-name-box">
+                                    <div class="test-img-box">
+                                        <img src="img/client.png" class="img-fluid">
+                                    </div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <div class="testi-box aticle-box">
+                                    <p>“I’ve been using Prismiq inverter batteries for over 2 years now, and they’ve
+                                        never let me down. Even during long power cuts, the backup is strong and
+                                        reliable.”
+                                    </p>
+                                    <div class="name-txt-box">
+                                        <h6><span>Ramesh Chauhan</span><br>Happy Client</h6>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12">
-                            <div class="testimonials owl-carousel owl-theme">
-                                <div class="item test-wrap">
-                                    <div class="test-name-box">
-                                        <div class="test-img-box">
-                                            <img src="img/client.png" class="img-fluid">
-                                        </div>
+                            <div class="item test-wrap">
+                                <div class="test-name-box">
+                                    <div class="test-img-box">
+                                        <img src="img/client.png" class="img-fluid">
                                     </div>
-                                    <div class="testi-box aticle-box">
-                                        <p>“I’ve been using Prismiq inverter batteries for over 2 years now, and they’ve
-                                            never let me down. Even during long power cuts, the backup is strong and
-                                            reliable. Truly one of the best battery brands in the market!”
-                                        </p>
-                                        <div class="name-txt-box">
-                                            <h6><span>Ramesh Chauhan</span><br>Our Client</h6>
-                                        </div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                                <div class="testi-box aticle-box">
+                                    <p>“We installed Prismiq solar batteries for our rooftop system last year. The
+                                        performance has been excellent, and the customer support team is very
+                                        responsive. Highly recommended for home solar users!”
+                                    </p>
+                                    <div class="name-txt-box">
+                                        <h6><span>Priya Mehta</span><br>Happy Client</h6>
                                     </div>
                                 </div>
-                                <div class="item test-wrap">
-                                    <div class="test-name-box">
-                                        <div class="test-img-box">
-                                            <img src="img/client.png" class="img-fluid">
-                                        </div>
-                                    </div>
-                                    <div class="testi-box aticle-box">
-                                        <p>“We installed Prismiq solar batteries for our rooftop system last year. The
-                                            performance has been excellent, and the customer support team is very
-                                            responsive. Highly recommended for home solar users!”
-                                        </p>
-                                        <div class="name-txt-box">
-                                            <h6><span>Priya Mehta</span><br>Our Client</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item test-wrap">
+                            </div>
+                            <!-- <div class="item test-wrap">
                                     <div class="test-name-box">
                                         <div class="test-img-box">
                                             <img src="img/client.png" class="img-fluid">
@@ -478,13 +447,13 @@
                                             <h6><span>Suresh Iyer</span><br>Our Client</h6>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
+                                </div> -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </main>
 

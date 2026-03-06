@@ -13,18 +13,6 @@
 
         <div class="main-cover">
 
-            <!-- <div class="video-wrapper">
-				<div class="video-box">
-					<video width="100%" height="100%" autoplay="" loop="" muted="" playinline="">
-						<source src="img/home-video.mp4" type="video/mp4">
-						Your browser does not support the video tag.
-					</video>
-				</div>		
-			</div> -->
-
-
-            <!-- ///////////////////////////// HOME INFO SECTION ///////////////////////////// -->
-
             <div class="hm-hero-section section-entry" data-aos="fade-up">
                 <div class="container">
                     <div class="row">
@@ -42,7 +30,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
-                            <h3>We Have 15+ Years Of Experience</h3>
+                            <h4>We Have 15+ Years Of Experience</h4>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea dolor tenetur ratione
                                 quisquam sint optio minima totam consectetur dignissimos nemo omnis maxime placeat
@@ -77,13 +65,13 @@
                                     <div class="col-lg-4 col-md-4 col-m-12">
                                         <div class="counter-item">
                                             <div class="counter" id="windTurbines">0</div>
-                                            <p>Wind Turbines Installed</p>
+                                            <p>Wind Turbines<br> Installed</p>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-m-12">
                                         <div class="counter-item">
                                             <div class="counter" id="solarPanels">0</div>
-                                            <p>Solar Panels Installed</p>
+                                            <p>Solar Panels<br> Installed</p>
                                         </div>
                                     </div>
                                 </div>
@@ -109,9 +97,10 @@
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12 hm-flex-center">
                                         <div class="hm-ab-head-box">
-                                            <h3>Welcome To Prismiq Industries</h3>
-                                            <h4>Prismiq Industries is a global leader in the production and supply of
-                                                advanced lead acid batteries.</h4>
+                                            <h2>Welcome To Prismiq Industries</h2>
+                                            <p class="hm-text">Prismiq Industries is a global leader in the production
+                                                and supply of
+                                                advanced lead acid batteries.</p>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -129,8 +118,8 @@
                                                 most demanding conditions. At Prismiq, innovation meets reliability to
                                                 create energy storage you can count on.
                                             </p>
-                                            <div class="hm1-btn">
-                                                <a href="">Read More</a>
+                                            <div class="hm-two-btn">
+                                                <a href="<?php echo $path; ?>company-profile">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -147,11 +136,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 mb-4">
-                            <h3>Industries We Serve</h3>
-                            <p>We provide cutting-edge solutions to a diverse range of industries. Our expertise spans
+                            <h3 class="text-center">Industries We Serve</h3>
+                            <p class="text-center">
+                                We provide cutting-edge solutions to a diverse range of industries. Our expertise spans
                                 various fields, ensuring that each sector receives tailored support to meet its unique
                                 challenges. Whether it's sustainable energy, healthcare, finance, or technology, we are
-                                dedicated to driving success and innovation wherever we operate.</p>
+                                dedicated to driving success and innovation wherever we operate.
+                            </p>
                         </div>
                         <div class="col-lg-12 col-md-12">
                             <div class="home-industry owl-carousel owl-theme">
@@ -201,13 +192,16 @@
                         <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
                             <div class="pro-box">
                                 <h3>Energy Generation</h3>
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga
-                                    consequuntur obcaecati.
-                                </p>
-                                <div class="hm1-btn">
-                                    <a href="">Read More</a>
+                                <div class="info">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga
+                                        consequuntur obcaecati.
+                                    </p>
+                                    <div class="hm1-btn">
+                                        <a href="">Read More</a>
+                                    </div>
                                 </div>
+
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
@@ -216,13 +210,16 @@
                         <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
                             <div class="pro-box">
                                 <h3>Energy Storage Solutions</h3>
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga
-                                    consequuntur obcaecati.
-                                </p>
-                                <div class="hm1-btn">
-                                    <a href="">Read More</a>
+                                <div class="info">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga
+                                        consequuntur obcaecati.
+                                    </p>
+                                    <div class="hm1-btn">
+                                        <a href="">Read More</a>
+                                    </div>
                                 </div>
+
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
@@ -231,12 +228,14 @@
                         <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
                             <div class="pro-box">
                                 <h3>Energy Integration</h3>
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga
-                                    consequuntur obcaecati.
-                                </p>
-                                <div class="hm1-btn">
-                                    <a href="">Read More</a>
+                                <div class="info">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga
+                                        consequuntur obcaecati.
+                                    </p>
+                                    <div class="hm1-btn">
+                                        <a href="">Read More</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -246,13 +245,16 @@
                         <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
                             <div class="pro-box">
                                 <h3>Energy Consultancy</h3>
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga
-                                    consequuntur obcaecati.
-                                </p>
-                                <div class="hm1-btn">
-                                    <a href="">Read More</a>
+                                <div class="info">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga
+                                        consequuntur obcaecati.
+                                    </p>
+                                    <div class="hm1-btn">
+                                        <a href="">Read More</a>
+                                    </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -315,7 +317,7 @@
                                 modern homes, businesses, and industries.
                             </p>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="col-lg-7 col-md-7 col-sm-12">
                             <div class="why-choose-txt-box">
                                 <div class="hm-value-points">
 
@@ -354,14 +356,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-left">
+                        <div class="col-lg-5 col-md-5 col-sm-12" data-aos="fade-left">
                             <div class="form-container">
-                                <h3>Get a Free Consultation</h3>
+                                <h4>Get a Free Consultation</h4>
                                 <form>
-                                    <input type="text" placeholder="Your Name" required>
-                                    <input type="email" placeholder="Your Email" required>
-                                    <input type="text" placeholder="Phone Number" required>
-                                    <input type="submit" value="Submit">
+                                    <input type="text" placeholder="Your Name" class="img-fluid" required>
+                                    <input type="email" placeholder="Your Email" class="img-fluid" required>
+                                    <input type="text" placeholder="Phone Number" class="img-fluid" required>
+                                   <div class="hm-two-btn">
+                                    <button class="btn">Submit</button>
+                                   </div>
                                 </form>
                             </div>
 

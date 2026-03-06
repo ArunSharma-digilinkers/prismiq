@@ -22,7 +22,7 @@
                         <img src="img/calculator-img.jpg" class="img-fluid br15">
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="form-container">
+                        <div class="calculator-form-container">
 
                             <!-- CATEGORY BUTTONS -->
                             <div class="tabs">

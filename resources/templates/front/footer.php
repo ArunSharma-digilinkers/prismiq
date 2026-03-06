@@ -32,16 +32,16 @@
                         <h5 class="footer-links">Usefull Link</h5>
                         <ul class="list-links">
                             <li>
-                                <a href="">Home</a>
+                                <a href="<?php echo $path; ?>">Home</a>
                             </li>
                             <li>
-                                <a href="company-profile">About</a>
+                                <a href="<?php echo $path; ?>company-profile">About Us</a>
                             </li>
                             <li>
-                                <a href="certificates">Certificates</a>
+                                <a href="<?php echo $path; ?>certificates">Certificates</a>
                             </li>
                             <li>
-                                <a href="contact-us">Contact</a>
+                                <a href="<?php echo $path; ?>contact-us">Contact Us</a>
                             </li>
                         </ul>
                     </div>

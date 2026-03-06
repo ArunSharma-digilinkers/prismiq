@@ -8,13 +8,13 @@ html,body {
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
-    color: $color-primary;
+    color: $color-black;
 }
 
 h4 {
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .mrt30 {
@@ -45,6 +45,68 @@ margin-bottom: 40px;
 
   a {
     display: inline-block;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+
+
+    &:hover {
+      transform: translateY(-2px);
+          border-bottom: solid 1px #000;
+    }
+
+    &:active {
+      transform: scale(0.98);
+      box-shadow: 0 2px 8px rgba(0, 123, 255, 0.2);
+    }
+  }
+}
+
+.hm-two-btn {
+    a {
+    display: inline-block;
+    padding: 12px 24px;
+    color: #fff;
+    font-weight: 600;
+    background: linear-gradient(135deg, #4a90e2, #007bff);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+    }
+
+      button {
+    margin-top: 15px;
+    display: flex;
+    padding: 12px 24px;
+    color: #fff;
+    font-weight: 600;
+    background: linear-gradient(135deg, #4a90e2, #007bff);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+
+       &:hover {
+      background: linear-gradient(135deg, #007bff, #0056b3);
+      box-shadow: 0 6px 16px rgba(0, 123, 255, 0.4);
+      transform: translateY(-2px);
+      color: #fff;
+    }
+    }
+}
+
+
+
+.calculator-btn {
+    margin-top: 10px;
+    
+    a {
+    display: inline-block;
     padding: 12px 24px;
     color: #fff;
     font-weight: 600;
@@ -69,7 +131,6 @@ margin-bottom: 40px;
 }
 
 
-
 //////////////////////// HERO SECTION CSS ////////////////////////
 
 .hm-hero-section {
@@ -83,10 +144,16 @@ margin-bottom: 40px;
     text-align: center;
     background-color: #ffffff;
     border-radius: 15px;
-    padding: 20px 10px;
+    padding: 10px 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
     margin-top: 15px;
+    height: 100%;
+
+    p {
+
+        margin-bottom: 0;
+    }
 }
 
 .counter-item:hover {
@@ -177,6 +244,10 @@ margin-bottom: 40px;
 
     .hm-ab-head-box , .hm-ab-txt-box {
         padding: 20px;
+
+       .hm-text {
+        font-size: 18px;
+       }
     }
 }
 
@@ -268,10 +339,13 @@ margin-bottom: 40px;
 
 .pro-box {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 15px;
+    padding: 30px 20px;
     height: 100%;
     border-radius: 15px;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     h3 {
         font-size: 25px;
@@ -371,12 +445,12 @@ margin-bottom: 40px;
     display: flex;
 
      i {
-    background-color: #31519c;
     color: #fff;
     border-radius: 50%;
     height: 30px;
     width: 30px;
     line-height: 30px;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 33px;
 }   
@@ -511,7 +585,6 @@ margin-bottom: 40px;
     display: flex;
 
      i {
-    background-color: #fff;
     color: $color-primary;
     border-radius: 50%;
     height: 30px;
@@ -560,7 +633,7 @@ margin-bottom: 40px;
 }
 
 
-.form-container{
+.calculator-form-container{
 background:$color-primary;
 padding:25px;
 border-radius:15px;
@@ -767,14 +840,13 @@ cursor:pointer;
     }
 
     .value-points i {
-        background-color: #fff;
-        color: #274291;
+        color: $color-text;
         border-radius: 50%;
         height: 25px;
         width: 25px;
         line-height: 23px;
         text-align: center;
-        border: 2px solid #274291;
+        font-size: 20px;
     }
 
 }
@@ -953,15 +1025,14 @@ cursor:pointer;
     justify-content: flex-start;
     align-items: baseline;
 
-
     i {
-    background-color: #274291;
-    color: #fff;
+    color: #3e3e3e;
     border-radius: 50%;
     height: 25px;
     width: 25px;
     line-height: 25px;
     text-align: center;
+    font-size: 20px;
 }
 .ab-points
  {
@@ -1068,30 +1139,31 @@ cursor:pointer;
 ///////////////////////////////////////////////////// FOOTER PAGE /////////////////////////////////////////////////
 
 .footer-wrapper {
-    background-image: url(../img/footer-background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #f8f9fa;
 
     .footer-links {
     font-size: 1.3rem;
-    font-weight: 700;
-    color: #fff;
+    font-weight: 400;
+    color: #000000;
     margin-bottom: 15px;
     }
 
     .list-links li {
     position: relative;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 40px;
 }
 
-    a , i , h5 , p {
-        color: #fff;
+    a , i , h5 {
+        color: #000000;
+    }
+
+    p {
+        color: #000;
     }
 
     span {
-        color: #fff;
+        color: #000000;
         margin-left: 10px;
     }
 

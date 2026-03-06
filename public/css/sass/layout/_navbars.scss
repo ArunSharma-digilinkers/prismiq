@@ -188,14 +188,15 @@
 }
 
 .dropdown-item {
-    background-color: $color-primary;
-    color: #fff;
-    border-bottom: solid 1px #fff;
+    background-color: $light-bg2;
+    color: #363636;
+    border-bottom: solid 1px #b4b4b4;
 	padding: 3px 15px;
+    font-weight: 300;
  }
  .dropdown-item:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: $light-bg;
+    color: #363636;
  }
 
 .customNav {

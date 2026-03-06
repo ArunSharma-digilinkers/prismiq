@@ -47,8 +47,8 @@
                         </a>
 
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item" href="inverter-batteries">Inverter Batteries</a></li>
-                            <li><a class="dropdown-item" href="automotive-batteries">Automotive Batteries</a></li>
+                            <li><a class="dropdown-item" href="energy-generation">Energy Generation</a></li>
+                            <li><a class="dropdown-item" href="energy-storage-solutions">Energy Storage Solutions</a></li>
                             <li><a class="dropdown-item" href="e-rickshaw-batteries">E-rickshaw Batteries</a></li>
                             <li><a class="dropdown-item" href="solar-batteries">Solar Batteries</a></li>
                             <li><a class="dropdown-item" href="truck-batteries">Tractor Batteries</a></li>

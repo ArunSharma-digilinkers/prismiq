@@ -15,7 +15,8 @@
 	color: $light-bg !important;
 }
 .bottom-footer-wrapper {
-	background-color: #1a1a1a;
+	border-top: solid 1px #000;
+	background-color: #f8f9fa;
 	padding: 1rem 0;
 }
 .dark .bottom-footer-wrapper {

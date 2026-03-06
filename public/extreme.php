@@ -14,6 +14,109 @@
             </div>
         </div>
 
+        <div class="prismiq-info-wrapper section-entry">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <img src="img/exteme-info-img.jpg" class="img-fluid br15">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h3>Extreme Batteries</h3>
+                        <h4>Prismiq Industries is a global leader in the production and supply of advanced lead acid
+                            batteries.</h4>
+                        <p>
+                            Prismiq Industries is a global leader in the manufacturing and supply of cutting-edge
+                            lead-acid batteries, serving diverse sectors including automotive, industrial, and renewable
+                            energy. With decades of experience and a commitment to excellence, we deliver reliable,
+                            high-performance battery solutions that meet international standards. At Prismiq, innovation
+                            meets reliability to create energy storage you can count on.
+                        </p>
+
+                        <!-- <div class="value-points mb-1">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <p class="ab-points">High Performance & Long Service Life</p>
+                        </div>
+
+                        <div class="value-points mb-1">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <p class="ab-points">100% Quality Tested Products</p>
+                        </div>
+
+                        <div class="value-points mb-1">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            <p class="ab-points">Advanced Tall Tubular Battery Technology</p>
+                        </div> -->
+
+                        <div class="hm1-btn">
+                            <a href="">Read More</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="brand-cta-section">
+            <h2>Reliable Energy for Every Moment That Matters</h2>
+            <p class="text-white">Built for durability and consistent performance, Prismiq batteries are engineered to
+                deliver dependable power when you need it most.With advanced tubular technology, extended battery life,
+                and robust construction, Prismiq ensures maximum efficiency and minimal maintenance.
+            </p>
+            <div class="cta-btns">
+                <a href="tel: +91 7428466522" class="btn-outline"><i class="fa-solid fa-phone"></i> Talk to an
+                    Expert</a>
+            </div>
+        </div>
+
+
+        <div class="brand-why-choose section-entry">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="heading-box">
+                            <h3>Why Choose Us</h3>
+                            <h4>Power You Can Trust, Performance You Can Rely On.</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+                        <div class="why-box">
+                            <div class="icon-box">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h4>Advanced Tubular Technology</h4>
+                            <p>
+                                Engineered with high-performance tubular plates for superior efficiency and longer service life.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+                        <div class="why-box">
+                            <div class="icon-box">
+                                <i class="fa-solid fa-arrow-trend-up"></i>
+                            </div>
+                            <h4>Backup Performance</h4>
+                            <p>
+                                Designed to deliver consistent, uninterrupted power during long outages.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+                        <div class="why-box">
+                            <div class="icon-box">
+                                <i class="fa-solid fa-screwdriver-wrench"></i>
+                            </div>
+                            <h4>Low Maintenance Design</h4>
+                            <p>
+                                Engineered with high-performance tubular plates for superior efficiency and longer
+                                service life.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="batteries-wrapper section-entry">
             <div class="container">
                 <div class="row">

@@ -10,7 +10,7 @@
 
         <div class="page-banner-wrap page-banner-fixed">
             <div class="container">
-                <h2>Energy Storage Solutions</h2>
+                <h2>Energy Consultancy</h2>
             </div>
         </div>
 
@@ -83,26 +83,26 @@
                     </div>
                     <div class="col-lg-7 col-md-7 col-sm-12">
                         <div class="info-txt-box">
-                            <h3>Smart, Reliable, and Scalable Energy Storage for a Sustainable Future</h3>
+                            <h3>Strategic Guidance to Optimize Energy Performance and Sustainability</h3>
 
                             <p>
-                                Energy storage plays a critical role in modern energy systems by ensuring reliable power availability, optimizing energy consumption, and enabling the integration of renewable energy sources. Prismiq Solutions provides advanced energy storage solutions designed to enhance energy efficiency, reduce operational costs, and support sustainable energy infrastructure. Our solutions help businesses, industries, and facilities store excess energy and deploy it when needed, ensuring uninterrupted operations and improved energy management.
+                                Prismiq Solutions provides expert Energy Consultancy Services to help organizations make smarter, data-driven decisions about their energy systems. Our consultancy focuses on analyzing energy consumption patterns, identifying efficiency opportunities, and designing customized strategies that reduce operational costs while supporting sustainability goals. By combining industry expertise with advanced analytical tools, we help businesses transition toward more efficient and resilient energy infrastructures.
                             </p>
                             
                             <div class="service-pointers-box">
-                               <img src="img/energy-storage-solution-img.jpg" class="img-fluid br15">
+                               <img src="img/service-energy-consultancy-img.jpg" class="img-fluid br15">
                             </div>
 
                             <div class="service-pointers-box mt-4">
-                                <h5>Key Features of Our Energy Storage Solutions</h5>
+                                <h5>Key Features of Our Energy Consultancy Services</h5>
                                 <p>
-                                    <strong>Reliable Backup Power : </strong> Maintain continuous operations during grid outages or peak demand periods.
+                                    <strong>Energy Audits & Assessments : </strong> Comprehensive analysis of energy consumption and system performance.
                                 </p>
                                 <p>
-                                    <strong>Renewable Energy Integration :  </strong> Store surplus energy generated from solar or other renewable sources for later use.
+                                    <strong>Energy Efficiency Optimization :  </strong> Identification of opportunities to reduce waste and improve efficiency.
                                 </p>
                                 <p>
-                                    <strong>Peak Load Management : </strong> Reduce electricity costs by using stored energy during high tariff periods.
+                                    <strong>Renewable Energy Advisory : </strong> Guidance on integrating solar, storage, and other clean energy solutions.
                                 </p>
                             </div>
 

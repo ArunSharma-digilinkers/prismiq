@@ -10,7 +10,7 @@
 
         <div class="page-banner-wrap page-banner-fixed">
             <div class="container">
-                <h2>Energy Storage Solutions</h2>
+                <h2>Energy Integration</h2>
             </div>
         </div>
 
@@ -82,39 +82,24 @@
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-7 col-sm-12">
-                        <div class="info-txt-box">
-                            <h3>Smart, Reliable, and Scalable Energy Storage for a Sustainable Future</h3>
+                        <img src="img/service-energy-integration-img.jpg" class="img-fluid br15">
+
+                        <div class="info-txt-box mt-4">
+                            <h3>Energy Integration Services</h3>
+
+                            <h5>Seamlessly Connecting Power Systems for Smarter and More Efficient Energy Management</h5>
 
                             <p>
-                                Energy storage plays a critical role in modern energy systems by ensuring reliable power availability, optimizing energy consumption, and enabling the integration of renewable energy sources. Prismiq Solutions provides advanced energy storage solutions designed to enhance energy efficiency, reduce operational costs, and support sustainable energy infrastructure. Our solutions help businesses, industries, and facilities store excess energy and deploy it when needed, ensuring uninterrupted operations and improved energy management.
+                                Prismiq Solutions offers comprehensive Energy Integration Services designed to unify diverse energy systems into a single, intelligent and efficient ecosystem. As organizations increasingly adopt renewable energy sources, energy storage technologies, and advanced grid infrastructure, integrating these components becomes essential for achieving optimal performance. Our energy integration solutions ensure that solar, battery storage, grid supply, and other distributed energy resources work together seamlessly to deliver reliable, efficient, and sustainable power.
                             </p>
-                            
-                            <div class="service-pointers-box">
-                               <img src="img/energy-storage-solution-img.jpg" class="img-fluid br15">
-                            </div>
-
-                            <div class="service-pointers-box mt-4">
-                                <h5>Key Features of Our Energy Storage Solutions</h5>
-                                <p>
-                                    <strong>Reliable Backup Power : </strong> Maintain continuous operations during grid outages or peak demand periods.
-                                </p>
-                                <p>
-                                    <strong>Renewable Energy Integration :  </strong> Store surplus energy generated from solar or other renewable sources for later use.
-                                </p>
-                                <p>
-                                    <strong>Peak Load Management : </strong> Reduce electricity costs by using stored energy during high tariff periods.
-                                </p>
-                            </div>
-
+                            <p>
+                                Through advanced control systems, intelligent monitoring, and customized integration strategies, Prismiq Solutions enables businesses to maximize energy utilization while maintaining operational stability. Our team focuses on optimizing system performance, improving energy visibility, and enabling smarter decision-making through integrated platforms. By connecting energy generation, storage, and consumption systems, we help organizations reduce costs, increase resilience, and accelerate their transition toward a cleaner and more sustainable energy future.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-
-
 
 
 

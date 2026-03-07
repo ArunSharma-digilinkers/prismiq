@@ -43,15 +43,14 @@
                             id="dropdownMenuLink"
                             data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Product Range
+                            Our Services
                         </a>
 
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <li><a class="dropdown-item" href="energy-generation">Energy Generation</a></li>
                             <li><a class="dropdown-item" href="energy-storage-solutions">Energy Storage Solutions</a></li>
-                            <li><a class="dropdown-item" href="e-rickshaw-batteries">E-rickshaw Batteries</a></li>
-                            <li><a class="dropdown-item" href="solar-batteries">Solar Batteries</a></li>
-                            <li><a class="dropdown-item" href="truck-batteries">Tractor Batteries</a></li>
+                            <li><a class="dropdown-item" href="energy-integration">Energy Integration</a></li>
+                            <li><a class="dropdown-item" href="energy-consultancy">Energy Consultancy</a></li>
                         </ul>
                     </div>
                 </li>
@@ -70,7 +69,7 @@
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <li><a class="dropdown-item" href="prismiq">Prismiq</a></li>
                             <li><a class="dropdown-item" href="ecolight">Ecolight</a></li>
-                            <li><a class="dropdown-item" href="extreme">Extreme</a></li>
+                            <li><a class="dropdown-item" href="xtreme">Xtreme</a></li>
                         </ul>
                     </div>
                 </li>

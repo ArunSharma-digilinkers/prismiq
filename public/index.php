@@ -32,12 +32,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
                             <h4>We Have 15+ Years Of Experience</h4>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea dolor tenetur ratione
-                                quisquam sint optio minima totam consectetur dignissimos nemo omnis maxime placeat
-                                officiis recusandae a, incidunt voluptatem, ad voluptates deleniti dicta deserunt.
-                                Dolorem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quae voluptatem
-                                quibusdam deleniti animi maiores!
-                            </p>
+                                At Prismiq Solutions, we bring over 15 years of expertise in delivering innovative and sustainable energy solutions. Our team specializes in designing, implementing, and optimizing energy systems that help businesses improve efficiency, reduce operational costs, and transition toward cleaner energy sources.
                             <div class="value-points">
                                 <div class="choose-icon">
                                     <i class="fa fa-check" aria-hidden="true"></i>
@@ -194,11 +189,10 @@
                                 <h3>Energy Generation</h3>
                                 <div class="info">
                                     <p>
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga
-                                        consequuntur obcaecati.
+                                        Delivering reliable, efficient, and sustainable power solutions through advanced energy generation technologies.
                                     </p>
                                     <div class="hm1-btn">
-                                        <a href="">Read More</a>
+                                        <a href="energy-generation">Read More</a>
                                     </div>
                                 </div>
 
@@ -212,11 +206,10 @@
                                 <h3>Energy Storage Solutions</h3>
                                 <div class="info">
                                     <p>
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga
-                                        consequuntur obcaecati.
+                                        Store excess energy efficiently to ensure reliability, flexibility, and uninterrupted power supply.
                                     </p>
                                     <div class="hm1-btn">
-                                        <a href="">Read More</a>
+                                        <a href="energy-storage-solutions">Read More</a>
                                     </div>
                                 </div>
 
@@ -230,11 +223,10 @@
                                 <h3>Energy Integration</h3>
                                 <div class="info">
                                     <p>
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga
-                                        consequuntur obcaecati.
+                                        Seamlessly connecting diverse energy systems for optimized performance, reliability, and sustainability.
                                     </p>
                                     <div class="hm1-btn">
-                                        <a href="">Read More</a>
+                                        <a href="energy-integration">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -247,11 +239,10 @@
                                 <h3>Energy Consultancy</h3>
                                 <div class="info">
                                     <p>
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga
-                                        consequuntur obcaecati.
+                                        Providing expert guidance to optimize energy efficiency, reduce costs, and improve sustainability.
                                     </p>
                                     <div class="hm1-btn">
-                                        <a href="">Read More</a>
+                                        <a href="energy-consultancy">Read More</a>
                                     </div>
                                 </div>
 
@@ -414,7 +405,7 @@
                             <div class="item test-wrap">
                                 <div class="test-name-box">
                                     <div class="test-img-box">
-                                        <img src="img/client.png" class="img-fluid">
+                                        <img src="img/client-2.png" class="img-fluid">
                                     </div>
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>

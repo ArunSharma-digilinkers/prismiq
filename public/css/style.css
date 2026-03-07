@@ -1895,6 +1895,27 @@ input {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+.other-services-box {
+  background-color: #274291;
+  padding: 40px;
+  border-radius: 30px;
+}
+.other-services-box h3 {
+  color: #fff;
+  border-bottom: solid 1px #b4b4b4;
+  padding: 7px 0;
+}
+.other-services-box .value-points {
+  display: flex;
+}
+.other-services-box .value-points i {
+  color: #fff;
+}
+.other-services-box .value-points p {
+  font-size: 17px;
+  color: #fff;
+}
+
 .solar-card {
   height: 420px;
   border-radius: 30px;
@@ -1969,7 +1990,12 @@ input {
   padding: 40px;
   border-radius: 30px;
 }
-.service-help h3, .service-help p {
+.service-help h3 {
+  color: #fff;
+  border-bottom: solid 1px #b4b4b4;
+  padding: 7px 0;
+}
+.service-help p {
   color: #fff;
 }
 .service-help .service-call-box p, .service-help .service-call-box a {

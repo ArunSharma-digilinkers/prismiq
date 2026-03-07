@@ -10,7 +10,7 @@
 
         <div class="page-banner-wrap page-banner-fixed">
             <div class="container">
-                <h2>Extreme</h2>
+                <h2>Xtreme Batteries</h2>
             </div>
         </div>
 
@@ -21,7 +21,7 @@
                         <img src="img/exteme-info-img.jpg" class="img-fluid br15">
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <h3>Extreme Batteries</h3>
+                        <h3>Xtreme Batteries</h3>
                         <h4>Prismiq Industries is a global leader in the production and supply of advanced lead acid
                             batteries.</h4>
                         <p>
@@ -171,10 +171,10 @@
                                                                 <div class="product-details">
                                                                     <h4><?php echo $row['model']; ?></h4>
                                                                 </div>
-                                                                <div class="pro-btn">
-                                                                    <a href="<?php echo $path; ?>inverter-battery?id=<?php echo $row['id']; ?>">View
-                                                                        Details</a>
-                                                                </div>
+                                                                <div class="hm-two-btn text-center">
+                                                                <a href="<?php echo $path; ?>inverter-battery?id=<?php echo $row['id']; ?>">View
+                                                                    Details</a>
+                                                            </div>
                                                             </div>
 
                                                         </div>

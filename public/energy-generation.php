@@ -18,17 +18,41 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-md-5 col-sm-12">
-                        <div class="service-help mb-4">
+                        <div class="other-services-box mb-4">
                             <h3>Our Services</h3>
-                            <p>
-                                Our Client care managers are on call 24/7 to answer your questions representative or
-                                submit a business inquiry online.
-                            </p>
-                            <div class="service-call-box">
-                            <p>
-                                <i class="fa-solid fa-phone"></i>&nbsp;&nbsp;<a href="tel:+91 7428466522">+91-7428466522</a>
-                            </p>
+                            <div class="value-points">
+                                <div class="choose-icon">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                </div>
+                                <div class="icon-details">
+                                        <p class="ab-points">Energy Generation</p>
+                                </div>
                             </div>
+                            <div class="value-points">
+                                <div class="choose-icon">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                </div>
+                                <div class="icon-details">
+                                        <p class="ab-points">Energy Storage solution</p>
+                                </div>
+                            </div>
+                            <div class="value-points">
+                                <div class="choose-icon">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                </div>
+                                <div class="icon-details">
+                                        <p class="ab-points">Energy Integration</p>
+                                </div>
+                            </div>
+                            <div class="value-points">
+                                <div class="choose-icon">
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                </div>
+                                <div class="icon-details">
+                                        <p class="ab-points">Energy Consultancy</p>
+                                </div>
+                            </div>
+                            
                         </div>
 
                         <div class="solar-card mb-4">

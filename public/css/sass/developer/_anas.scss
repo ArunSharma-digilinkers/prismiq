@@ -1073,6 +1073,133 @@ cursor:pointer;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+
+/////////////////// Services ///////////////////  
+
+
+.other-services-box {
+    background-color: #274291;
+    padding: 40px;
+    border-radius: 30px;
+
+    h3 {
+        color: #fff;
+        border-bottom: solid 1px #b4b4b4;
+        padding: 7px 0;
+    }
+
+    .value-points {
+        display: flex;
+
+        i {
+            color: #fff;
+        }
+
+        p {
+            font-size: 17px;
+            color: #fff;
+        }
+    }
+}
+
+
+.solar-card{
+    height:420px;
+    border-radius:30px;
+    overflow:hidden;
+    position:relative;
+    background-image: url('../img/quote-bg-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Overlay for readability */
+
+.solar-card::before{
+content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.35);
+}
+
+/* Content */
+
+.content{
+position:absolute;
+top:40px;
+left:40px;
+right:40px;
+color:white;
+z-index:2;
+}
+
+.content h1{
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* Button */
+
+.quote-btn{
+display:flex;
+align-items:center;
+justify-content:space-between;
+background:$color-primary;
+border:2px solid #fff;
+padding:18px 25px;
+border-radius:50px;
+width:280px;
+text-decoration:none;
+color:white;
+font-size:18px;
+}
+
+.arrow{
+    background: #fff;
+    color: $color-primary;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+
+.service-help {
+    background-color: #274291;
+    padding: 40px;
+    border-radius: 30px;
+
+    h3 {
+        color: #fff;
+        border-bottom: solid 1px #b4b4b4;
+        padding: 7px 0;
+    }
+
+    p {
+        color: #fff;
+    }
+
+    .service-call-box {
+        p, a {
+            color: #fff;
+            font-size: 30px;
+            margin-top: 30px;
+        }
+    }
+}
+
 ///////////////////////////////////////////////////// CONTACT US PAGE /////////////////////////////////////////////////
 
 .contact-page-section {

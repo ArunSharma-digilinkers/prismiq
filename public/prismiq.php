@@ -10,7 +10,7 @@
 
         <div class="page-banner-wrap page-banner-fixed">
             <div class="container">
-                <h2>Prismiq</h2>
+                <h2>Prismiq Batteries</h2>
             </div>
         </div>
 
@@ -86,7 +86,8 @@
                             </div>
                             <h4>Advanced Tubular Technology</h4>
                             <p>
-                                Engineered with high-performance tubular plates for superior efficiency and longer service life.
+                                Engineered with high-performance tubular plates for superior efficiency and longer
+                                service life.
                             </p>
                         </div>
                     </div>
@@ -177,9 +178,8 @@
                                                             <div class="product-details">
                                                                 <h4><?php echo $row['model']; ?></h4>
                                                             </div>
-                                                            <div class="pro-btn">
-                                                                <a
-                                                                    href="<?php echo $path; ?>inverter-battery?id=<?php echo $row['id']; ?>">View
+                                                            <div class="hm-two-btn text-center">
+                                                                <a href="<?php echo $path; ?>inverter-battery?id=<?php echo $row['id']; ?>">View
                                                                     Details</a>
                                                             </div>
                                                         </div>

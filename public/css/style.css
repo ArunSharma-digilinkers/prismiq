@@ -460,17 +460,19 @@ body.dark p {
 	Buttons style-1
 =====================================================================*/
 .c-btn {
-  position: relative;
-  padding: 0.5rem 2rem;
+  display: inline-block;
+  padding: 12px 24px;
+  color: #fff;
+  font-weight: 600;
+  background: linear-gradient(135deg, #4a90e2, #007bff);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
   text-decoration: none;
-  background-color: #274291;
-  color: #ffffff;
-  border-radius: 50px;
-  text-transform: capitalize;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
 }
 .c-btn:hover {
   color: #ffffff;
-  background-color: #04113e;
 }
 
 body.dark .c-btn {
@@ -1422,8 +1424,13 @@ h4 {
   align-items: center;
 }
 
+.name-txt-box h6 {
+  color: #000;
+}
 .name-txt-box h6 span {
-  color: var(--primary);
+  font-size: 20px;
+  color: #274291;
+  font-weight: 600;
 }
 
 .test-img-box img {
@@ -1506,7 +1513,7 @@ h4 {
 }
 
 .calculator-form-container {
-  background: #274291;
+  background-color: rgba(218, 219, 221, 0.2901960784);
   padding: 25px;
   border-radius: 15px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
@@ -1529,7 +1536,7 @@ h4 {
 }
 
 .tab.active {
-  background: #000;
+  background: #909090;
   color: #fff;
 }
 
@@ -1545,7 +1552,6 @@ h4 {
 label {
   margin-top: 12px;
   font-size: 14px;
-  color: #fff;
 }
 
 input {
@@ -1579,7 +1585,7 @@ input {
   font-size: 12px;
 }
 .checkbox span {
-  color: #fff;
+  color: #000000;
 }
 
 .field {
@@ -1591,7 +1597,6 @@ input {
 .field label {
   font-size: 14px;
   margin-bottom: 6px;
-  color: #fff;
 }
 
 .field input {
@@ -1635,6 +1640,77 @@ input {
   padding: 12px;
   border-radius: 25px;
   cursor: pointer;
+}
+
+/* STEP VISIBILITY */
+.step {
+  display: none;
+  max-width: 700px;
+  margin: auto;
+}
+
+.step.active {
+  display: block;
+}
+
+/* QUESTION TITLE */
+.question {
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+/* OPTION GROUP LAYOUT */
+.option-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+/* OPTION BUTTONS */
+.option-btn,
+.bill-btn {
+  padding: 12px 25px;
+  border: 2px solid #ccc;
+  background: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.option-btn:hover,
+.bill-btn:hover {
+  border-color: #28a745;
+}
+
+/* ACTIVE BUTTON */
+.option-btn.active,
+.bill-btn.active {
+  background: #28a745;
+  color: #fff;
+  border-color: #28a745;
+}
+
+/* BUTTON AREA */
+.btn-area {
+  margin-top: 40px;
+}
+
+/* SUBMIT BUTTON */
+.submit-btn {
+  padding: 12px 40px;
+  background: linear-gradient(135deg, #4a90e2, #007bff);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
 }
 
 .certificate-box {
@@ -2117,8 +2193,27 @@ input {
   #digiCarousel .carousel-item1 {
     padding: 87px 0;
   }
+  .mrb20 {
+    margin-bottom: 20px;
+  }
+  .mrb30 {
+    margin-bottom: 30px;
+  }
+  .hm-ab-wrap .hm-ab-box h2 {
+    font-size: 25px;
+  }
+  .w100 {
+    width: 100%;
+  }
+  .hm-mission-wrapper .mission-wrap {
+    margin-top: 0;
+  }
   .why-choose-wrapper .mrt220 {
     margin-top: 45px;
+  }
+  .brand-cta-section {
+    background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 48%, rgb(0, 212, 255) 100%);
+    padding: 80px 0;
   }
   .card-side {
     display: flex;

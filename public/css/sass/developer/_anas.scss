@@ -535,8 +535,14 @@ margin-bottom: 40px;
 
 
 
-.name-txt-box h6 span {
-	color: var(--primary);
+.name-txt-box h6  {
+	color: #000;
+
+    span {
+        font-size: 20px;
+        color: #274291;
+        font-weight: 600;
+    }
 }
 
 .test-img-box img {
@@ -633,137 +639,206 @@ margin-bottom: 40px;
 }
 
 
-.calculator-form-container{
-background:$color-primary;
-padding:25px;
-border-radius:15px;
-box-shadow:0 5px 20px rgba(0,0,0,0.1);
+.calculator-form-container {
+	background-color: #dadbdd4a;
+	padding: 25px;
+	border-radius: 15px;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
-.tabs{
-display:flex;
-justify-content:space-between;
-margin-bottom:20px;
+.tabs {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
 }
 
-.tab{
-flex:1;
-padding:10px;
-border:none;
-background:#fff;
-cursor:pointer;
-border-radius:20px;
-margin:3px;
+.tab {
+	flex: 1;
+	padding: 10px;
+	border: none;
+	background: #fff;
+	cursor: pointer;
+	border-radius: 20px;
+	margin: 3px;
 }
 
-.tab.active{
-background:#000;
-color: #fff;
+.tab.active {
+	background: #909090;
+	color: #fff;
 }
 
-.form-section{
-display:none;
-flex-direction:column;
+.form-section {
+	display: none;
+	flex-direction: column;
 }
 
-.form-section.active{
-display:flex;
+.form-section.active {
+	display: flex;
 }
 
-label{
-margin-top:12px;
-font-size:14px;
-color: #fff;
+label {
+	margin-top: 12px;
+	font-size: 14px;
 }
 
-input{
-padding:10px;
-margin-top:5px;
-border-radius:8px;
-border:1px solid #ccc;
+input {
+	padding: 10px;
+	margin-top: 5px;
+	border-radius: 8px;
+	border: 1px solid #ccc;
 }
 
-.bill-options{
-display:flex;
-flex-wrap:wrap;
-gap:10px;
-margin-top:10px;
+.bill-options {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-top: 10px;
 }
 
-.bill-options button{
-border:1px solid #ccc;
-background:white;
-padding:8px 12px;
-border-radius:8px;
-cursor:pointer;
+.bill-options button {
+	border: 1px solid #ccc;
+	background: white;
+	padding: 8px 12px;
+	border-radius: 8px;
+	cursor: pointer;
 }
 
-.bill-options button:hover{
-background:#eee;
+.bill-options button:hover {
+	background: #eee;
 }
 
-.checkbox{
-margin-top:15px;
-font-size:12px;
+.checkbox {
+	margin-top: 15px;
+	font-size: 12px;
 
-span {
-    color: #fff;
-}
-}
-
-.field{
-display:flex;
-flex-direction:column;
-width:100%;
+	span {
+		color: #000000;
+	}
 }
 
-.field label{
-font-size:14px;
-margin-bottom:6px;
-color:#fff;
+.field {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 }
 
-.field input{
-width:100%;
-padding:12px;
-border-radius:8px;
-border:1px solid #d1d5db;
-font-size:14px;
-box-sizing:border-box;
+.field label {
+	font-size: 14px;
+	margin-bottom: 6px;
 }
 
-.designation{
-margin-bottom:20px;
+.field input {
+	width: 100%;
+	padding: 12px;
+	border-radius: 8px;
+	border: 1px solid #d1d5db;
+	font-size: 14px;
+	box-sizing: border-box;
 }
 
-.designation-buttons{
-display:flex;
-flex-wrap:wrap;
-gap:10px;
-margin-top:10px;
+.designation {
+	margin-bottom: 20px;
 }
 
-.designation-buttons button{
-padding:10px 14px;
-border:1px solid #ccc;
-background:white;
-border-radius:8px;
-cursor:pointer;
+.designation-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-top: 10px;
 }
 
-.designation-buttons button.active{
-background:#e6efff;
-border-color:#5a8cff;
+.designation-buttons button {
+	padding: 10px 14px;
+	border: 1px solid #ccc;
+	background: white;
+	border-radius: 8px;
+	cursor: pointer;
 }
 
-.submit-btn{
-margin-top:20px;
-background:#fff;
-color:#000;
-border:none;
-padding:12px;
-border-radius:25px;
-cursor:pointer;
+.designation-buttons button.active {
+	background: #e6efff;
+	border-color: #5a8cff;
+}
+
+.submit-btn {
+	margin-top: 20px;
+	background: #fff;
+	color: #000;
+	border: none;
+	padding: 12px;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+/* STEP VISIBILITY */
+.step {
+	display: none;
+	max-width: 700px;
+	margin: auto;
+}
+
+.step.active {
+	display: block;
+}
+
+/* QUESTION TITLE */
+.question {
+	margin-top: 25px;
+	font-weight: 600;
+}
+
+/* OPTION GROUP LAYOUT */
+.option-group {
+	display: flex;
+	gap: 15px;
+	margin-top: 10px;
+	flex-wrap: wrap;
+}
+
+/* OPTION BUTTONS */
+.option-btn,
+.bill-btn {
+	padding: 12px 25px;
+	border: 2px solid #ccc;
+	background: #fff;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 15px;
+	transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.option-btn:hover,
+.bill-btn:hover {
+	border-color: #28a745;
+}
+
+/* ACTIVE BUTTON */
+.option-btn.active,
+.bill-btn.active {
+	background: #28a745;
+	color: #fff;
+	border-color: #28a745;
+}
+
+/* BUTTON AREA */
+.btn-area {
+	margin-top: 40px;
+}
+
+/* SUBMIT BUTTON */
+.submit-btn {
+	padding: 12px 40px;
+    background: linear-gradient(135deg, #4a90e2, #007bff);
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.submit-btn:hover {
+	opacity: 0.9;
 }
 
 ///////////////////////////////////////////////////// MANAGEMENT PAGE /////////////////////////////////////////////////
@@ -1352,8 +1427,36 @@ font-size:18px;
          padding: 87px 0;
     }
 
+
+    .mrb20 {
+        margin-bottom: 20px;
+    }
+
+    .mrb30 {
+        margin-bottom: 30px;
+    }
+
+    .hm-ab-wrap .hm-ab-box {
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    .w100 {
+        width: 100%;
+    }
+
+    .hm-mission-wrapper .mission-wrap {
+        margin-top: 0;
+    }
+
     .why-choose-wrapper .mrt220 {
     margin-top: 45px;
+}
+
+.brand-cta-section {
+    background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 48%, rgb(0, 212, 255) 100%);
+    padding: 80px 0;
 }
 
     .card-side {

@@ -54,9 +54,14 @@ $(document).ready(function () {
     });
 });
 
+// AOS Init
+$(document).ready(function() {
+	AOS.init({
+		duration: 1000,
+	  });
+  });
 
-
-
+  
 $('.home-industry').owlCarousel({
     loop:true,
     margin:10,
@@ -98,48 +103,7 @@ $('.testimonials').owlCarousel({
 })
 
 
-const tabs = document.querySelectorAll(".tab");
-const forms = document.querySelectorAll(".form-section");
 
-tabs.forEach(tab => {
-    tab.addEventListener("click", () => {
-
-        tabs.forEach(btn => btn.classList.remove("active"));
-        forms.forEach(form => form.classList.remove("active"));
-
-        tab.classList.add("active");
-
-        const target = tab.getAttribute("data-tab");
-        document.getElementById(target).classList.add("active");
-    });
-});
-
-
-document.querySelectorAll('.faq-question').forEach(question => {
-    question.addEventListener('click', () => {
-        const faqItem = question.parentElement;
-        const isOpen = faqItem.classList.contains('active');
-
-        // Close all
-        document.querySelectorAll('.faq-item').forEach(item => {
-            item.classList.remove('active');
-            item.querySelector('.faq-answer').style.display = 'none';
-        });
-
-        // Open if it wasn't already open
-        if (!isOpen) {
-            faqItem.classList.add('active');
-            faqItem.querySelector('.faq-answer').style.display = 'block';
-        }
-    });
-});
-
-// AOS Init
-$(document).ready(function() {
-	AOS.init({
-		duration: 1000,
-	  });
-  });
 
 // Initialize Swiper
 // Cube effect
@@ -185,39 +149,6 @@ var swiper = new Swiper(".flipSwiper", {
 });
 
 
-document.addEventListener('DOMContentLoaded', function () {
-    // Counter values
-    const counters = {
-        installedCapacity: 500,
-        windTurbines: 650,
-        solarPanels: 100,
-        projectsCompleted: 150
-    };
-
-    // Function to animate the counter
-    function animateCounter(id, targetValue) {
-        const counter = document.getElementById(id);
-        let currentValue = 0;
-        const increment = targetValue / 100; // Increment value for smooth animation
-        const speed = 50; // Speed of increment
-
-        const interval = setInterval(function () {
-            currentValue += increment;
-            if (currentValue >= targetValue) {
-                currentValue = targetValue;
-                clearInterval(interval); // Stop the animation when the target is reached
-            }
-            counter.innerText = Math.round(currentValue);
-        }, speed);
-    }
-
-    // Start the counter animation
-    animateCounter('installedCapacity', counters.installedCapacity);
-    animateCounter('windTurbines', counters.windTurbines);
-    animateCounter('solarPanels', counters.solarPanels);
-    animateCounter('projectsCompleted', counters.projectsCompleted);
-});
-
  /*Gallery js main */
  
  
@@ -262,4 +193,149 @@ $(document).ready(function() {
     $('.menu-toggle').click(function() {
         $('.nav-container').toggleClass('mob-container');
     });
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Counter values
+    const counters = {
+        installedCapacity: 500,
+        windTurbines: 650,
+        solarPanels: 100,
+        projectsCompleted: 150
+    };
+
+    // Function to animate the counter
+    function animateCounter(id, targetValue) {
+        const counter = document.getElementById(id);
+        let currentValue = 0;
+        const increment = targetValue / 100; // Increment value for smooth animation
+        const speed = 50; // Speed of increment
+
+        const interval = setInterval(function () {
+            currentValue += increment;
+            if (currentValue >= targetValue) {
+                currentValue = targetValue;
+                clearInterval(interval); // Stop the animation when the target is reached
+            }
+            counter.innerText = Math.round(currentValue);
+        }, speed);
+    }
+
+    // Start the counter animation
+    animateCounter('installedCapacity', counters.installedCapacity);
+    animateCounter('windTurbines', counters.windTurbines);
+    animateCounter('solarPanels', counters.solarPanels);
+    animateCounter('projectsCompleted', counters.projectsCompleted);
+});
+
+// For Calculator
+
+document.querySelectorAll(".tab").forEach(tab => {
+
+    tab.addEventListener("click", function(){
+
+        // remove active class from all tabs
+        document.querySelectorAll(".tab").forEach(btn=>{
+            btn.classList.remove("active");
+        });
+
+        this.classList.add("active");
+
+        // hide all forms
+        document.querySelectorAll(".calculator-form-container form").forEach(form=>{
+            form.style.display = "none";
+        });
+
+        // show selected form
+        let tabName = this.getAttribute("data-tab");
+        document.getElementById(tabName).style.display = "block";
+
+    });
+
+});
+
+
+// STEP 1 → STEP 2
+document.getElementById("next1").addEventListener("click", function(){
+
+    let name = document.querySelector('[name="name"]').value.trim();
+    let phone = document.querySelector('[name="phone"]').value.trim();
+    let pincode = document.querySelector('[name="pincode"]').value.trim();
+    let bill = document.getElementById("monthly_bill").value;
+    let agree = document.querySelector('[name="agree"]').checked;
+
+    if(name === "" || phone === "" || pincode === "" || bill === ""){
+        alert("Please fill all details");
+        return;
+    }
+
+    if(!agree){
+        alert("Please accept terms & privacy policy");
+        return;
+    }
+
+    document.getElementById("step0").classList.remove("active");
+    document.getElementById("step1").classList.add("active");
+
+});
+
+
+// STEP 2 → STEP 3
+document.getElementById("next2").addEventListener("click", function(){
+
+    let roof = document.querySelector('[name="roof_owner"]').value;
+    let constructed = document.querySelector('[name="constructed"]').value;
+    let type = document.querySelector('[name="roof_type"]').value;
+
+    if(roof === "" || constructed === "" || type === ""){
+        alert("Please answer all questions");
+        return;
+    }
+
+    document.getElementById("step1").classList.remove("active");
+    document.getElementById("step2").classList.add("active");
+
+});
+
+
+// STEP 3 → STEP 4
+document.getElementById("next3").addEventListener("click", function(){
+
+    document.getElementById("step2").classList.remove("active");
+    document.getElementById("step3").classList.add("active");
+
+});
+
+
+
+
+const tabs = document.querySelectorAll(".tab");
+const forms = document.querySelectorAll(".form-section");
+
+tabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+
+        tabs.forEach(btn => btn.classList.remove("active"));
+        forms.forEach(form => form.classList.remove("active"));
+
+        tab.classList.add("active");
+
+        const target = tab.getAttribute("data-tab");
+        document.getElementById(target).classList.add("active");
+    });
+});
+
+document.querySelectorAll(".designation-btn").forEach(btn => {
+
+btn.addEventListener("click", function(){
+
+document.querySelectorAll(".designation-btn").forEach(b => b.classList.remove("active"));
+
+this.classList.add("active");
+
+document.querySelector('input[name="designation"]').value = this.dataset.value;
+
+});
+
 });

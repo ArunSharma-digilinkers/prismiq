@@ -51,19 +51,19 @@
                             </div>
                             <section class="counter-section">
                                 <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-m-12">
+                                    <div class="col-lg-4 col-md-4 col-m-12 mrb20">
                                         <div class="counter-item">
                                             <div class="counter" id="installedCapacity">0</div>
                                             <p>Installed <br>Capacity</p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-4 col-m-12">
+                                    <div class="col-lg-4 col-md-4 col-m-12 mrb20">
                                         <div class="counter-item">
                                             <div class="counter" id="windTurbines">0</div>
                                             <p>Wind Turbines<br> Installed</p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-4 col-m-12">
+                                    <div class="col-lg-4 col-md-4 col-m-12 mrb20">
                                         <div class="counter-item">
                                             <div class="counter" id="solarPanels">0</div>
                                             <p>Solar Panels<br> Installed</p>
@@ -182,7 +182,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
-                            <img src="img/energy-storage-img.jpg" class="img-fluid br15">
+                            <img src="img/energy-storage-img.jpg" class="img-fluid br15 w100">
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
                             <div class="pro-box">
@@ -199,7 +199,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
-                            <img src="img/energy-integration-img.jpg" class="img-fluid br15">
+                            <img src="img/energy-integration-img.jpg" class="img-fluid br15 w100">
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
                             <div class="pro-box">
@@ -216,7 +216,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
-                            <img src="img/energy-storage.jpg" class="img-fluid br15">
+                            <img src="img/energy-storage.jpg" class="img-fluid br15 w100">
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
                             <div class="pro-box">
@@ -232,7 +232,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
-                            <img src="img/energy-consultancy.jpg" class="img-fluid br15">
+                            <img src="img/energy-consultancy.jpg" class="img-fluid br15 w100">
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
                             <div class="pro-box">

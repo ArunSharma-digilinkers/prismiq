@@ -78,7 +78,11 @@
                 </li>
                 <li class="nav-item">
                     <div class="calculator-btn">
+<<<<<<< HEAD
                         <a href="solar-calculator">Enquiry Now</a>
+=======
+                        <a href="<?php echo $path; ?>solar-calculator">Solar Calculator</a>
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
                     </div>
                 </li>
             </ul>

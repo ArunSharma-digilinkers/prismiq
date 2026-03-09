@@ -54,6 +54,7 @@ $(document).ready(function () {
     });
 });
 
+<<<<<<< HEAD
 // AOS Init
 $(document).ready(function() {
 	AOS.init({
@@ -62,6 +63,93 @@ $(document).ready(function() {
   });
 
   
+=======
+// BILL BUTTON SELECT
+document.querySelectorAll(".bill-btn").forEach(btn => {
+
+    btn.addEventListener("click", function () {
+
+        document.querySelectorAll(".bill-btn").forEach(b => b.classList.remove("active"));
+
+        this.classList.add("active");
+
+        document.getElementById("monthly_bill").value = this.dataset.value;
+
+    });
+
+});
+
+
+// OPTION BUTTON SELECT
+document.querySelectorAll(".option-btn").forEach(btn => {
+
+    btn.addEventListener("click", function () {
+
+        let name = this.dataset.name;
+        let value = this.dataset.value;
+
+        document.querySelectorAll('[data-name="'+name+'"]').forEach(b=>{
+            b.classList.remove("active");
+        });
+
+        this.classList.add("active");
+
+        let input = document.querySelector('input[name="'+name+'"]');
+
+        if(input){
+            input.value = value;
+        }
+
+    });
+
+});
+
+
+// STEP 1 → STEP 2
+document.getElementById("next1").addEventListener("click", function(){
+
+    let name = document.querySelector('[name="name"]').value.trim();
+    let phone = document.querySelector('[name="phone"]').value.trim();
+    let bill = document.getElementById("monthly_bill").value;
+
+    if(name === "" || phone === "" || bill === ""){
+        alert("Please fill all details");
+        return;
+    }
+
+    document.getElementById("step0").classList.remove("active");
+    document.getElementById("step1").classList.add("active");
+
+});
+
+
+// STEP 2 → STEP 3
+document.getElementById("next2").addEventListener("click", function(){
+
+    let roof = document.querySelector('[name="roof_owner"]').value;
+    let constructed = document.querySelector('[name="constructed"]').value;
+    let type = document.querySelector('[name="roof_type"]').value;
+
+    if(roof === "" || constructed === "" || type === ""){
+        alert("Please answer all questions");
+        return;
+    }
+
+    document.getElementById("step1").classList.remove("active");
+    document.getElementById("step2").classList.add("active");
+
+});
+
+
+// STEP 3 → STEP 4
+document.getElementById("next3").addEventListener("click", function(){
+
+    document.getElementById("step2").classList.remove("active");
+    document.getElementById("step3").classList.add("active");
+
+});
+
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
 $('.home-industry').owlCarousel({
     loop:true,
     margin:10,

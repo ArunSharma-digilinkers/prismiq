@@ -2249,6 +2249,77 @@ input {
     padding-left: 0.4rem;
   }
 }
+/* STEP VISIBILITY */
+.step {
+  display: none;
+  max-width: 700px;
+  margin: auto;
+}
+
+.step.active {
+  display: block;
+}
+
+/* QUESTION TITLE */
+.question {
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+/* OPTION GROUP LAYOUT */
+.option-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+/* OPTION BUTTONS */
+.option-btn,
+.bill-btn {
+  padding: 12px 25px;
+  border: 2px solid #ccc;
+  background: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.option-btn:hover,
+.bill-btn:hover {
+  border-color: #28a745;
+}
+
+/* ACTIVE BUTTON */
+.option-btn.active,
+.bill-btn.active {
+  background: #28a745;
+  color: #fff;
+  border-color: #28a745;
+}
+
+/* BUTTON AREA */
+.btn-area {
+  margin-top: 40px;
+}
+
+/* SUBMIT BUTTON */
+.submit-btn {
+  padding: 12px 40px;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+}
+
 /*====================================================================
 	Two column layout-1
 =====================================================================*/

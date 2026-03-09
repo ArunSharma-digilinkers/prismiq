@@ -8,21 +8,39 @@
 <main class="s1">
     <div class="main-wrapper">
 
+<<<<<<< HEAD
         <div class="form-wrapper section-entry">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
                         <h3>Get Your Personalized Energy Plan</h3>
              
+=======
+
+        <div class="form-wrapper section-entry">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h3>Get Your Personalized Energy Plan</h3>
+                        <h4>Tell us a little about your home or business so we can recommend the best energy solution
+                            for you.</h4>
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
                         <p>
                             Fill out the quick form below with your details and monthly electricity usage. Our team will
                             review your information and provide the most suitable plan designed to help you reduce
                             energy costs and improve efficiency.
                         </p>
+<<<<<<< HEAD
                         <img src="img/calculator-img.jpg" class="img-fluid br15">
 
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+=======
+
+                        <img src="img/calculator-img.jpg" class="img-fluid br15">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
                         <div class="calculator-form-container">
 
                             <!-- CATEGORY BUTTONS -->
@@ -38,6 +56,7 @@
                                 <div class="step active" id="step0">
 
                                     <label>Full Name *</label>
+<<<<<<< HEAD
                                     <input type="text" name="name" class="form-control">
 
                                     <label>WhatsApp number *</label>
@@ -45,6 +64,15 @@
 
                                     <label>Pin code *</label>
                                     <input type="text" name="pincode" class="form-control">
+=======
+                                    <input type="text" name="name" class="form-control" required>
+
+                                    <label>WhatsApp number *</label>
+                                    <input type="tel" name="phone" class="form-control" required>
+
+                                    <label>Pin code *</label>
+                                    <input type="text" name="pincode" class="form-control" required>
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
 
                                     <label>What is your average monthly bill?</label>
 
@@ -57,6 +85,10 @@
                                         <button type="button" class="bill-btn" data-value="6000">₹4000 – ₹8000</button>
                                         <button type="button" class="bill-btn" data-value="9000">More than
                                             ₹8000</button>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
                                     </div>
 
                                     <input type="hidden" name="monthly_bill" id="monthly_bill">
@@ -153,6 +185,10 @@
 
                                 </div>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
                                 <!-- STEP 3 -->
                                 <div class="step" id="step3">
 
@@ -175,6 +211,7 @@
 
 
                             <!-- HOUSING SOCIETY FORM -->
+<<<<<<< HEAD
                             <form id="society" class="form-section" method="post" action="send-society-lead.php">
                                 <label>Full Name *</label>
                                 <input type="text" name="name" required class="form-control">
@@ -188,15 +225,38 @@
                                 <div class="field">
                                     <label>WhatsApp number *</label>
                                     <input type="tel" name="whatsapp_number" placeholder="Enter WhatsApp number" class="form-control" required>
+=======
+                            <form id="society" class="form-section">
+                                <label>Full Name *</label>
+                                <input type="text" required>
+
+                                <label>Company Name *</label>
+                                <input type="text" required>
+
+                                <label>Pin code *</label>
+                                <input type="text">
+
+                                <div class="field">
+                                    <label>WhatsApp number *</label>
+                                    <input type="tel" placeholder="Enter WhatsApp number" required>
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
                                 </div>
 
                                 <div class="field">
                                     <label>Monthly Electricity Bill *</label>
+<<<<<<< HEAD
                                     <select name="monthly_bill" required class="form-control">
                                         <option value="0 - 50000">0 - 50000</option>
                                         <option value="50000 - 1 Lakh">50000 - 1 Lakh</option>
                                         <option value="1 Lakh - 2 Lakh">1 Lakh - 2 Lakh</option>
                                         <option value="2 Lakh +">2 Lakh +</option>
+=======
+                                    <select required>
+                                        <option>0 - 50000</option>
+                                        <option>50000 - 1 Lakh</option>
+                                        <option>1 Lakh - 2 Lakh</option>
+                                        <option>2 Lakh +</option>
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
                                     </select>
                                 </div>
 
@@ -205,12 +265,21 @@
                                     <label>What is your designation in Housing Society? *</label>
 
                                     <div class="designation-buttons">
+<<<<<<< HEAD
                                         <button type="button" data-value="Management committee member">Management committee member</button>
                                         <button type="button" data-value="Resident">Resident</button>
                                         <button type="button" data-value="Builder">Builder</button>
                                         <button type="button" data-value="Facility Manager">Facility Manager</button>
                                     </div>
                                  <input type="hidden" name="designation">
+=======
+                                        <button type="button">Management committee member</button>
+                                        <button type="button">Resident</button>
+                                        <button type="button">Builder</button>
+                                        <button type="button">Facility Manager</button>
+                                    </div>
+
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
                                 </div>
 
                                 <!-- AGM STATUS -->
@@ -218,11 +287,19 @@
                                 <div class="field">
                                     <label>AGM approval status *</label>
 
+<<<<<<< HEAD
                                     <select required class="form-control">
                                         <option disabled selected>Select Approval Status</option>
                                         <option value="We already have AGM approval">We already have AGM approval</option>
                                         <option value="We don't have an AGM approval yet">We don't have an AGM approval yet</option>
                                         <option value="We want help in preparing for our AGM">We want help in preparing for our AGM</option>
+=======
+                                    <select required>
+                                        <option disabled selected>Select Approval Status</option>
+                                        <option>We already have AGM approval</option>
+                                        <option>We don't have an AGM approval yet</option>
+                                        <option>We want help in preparing for our AGM</option>
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
                                     </select>
 
                                 </div>
@@ -230,6 +307,7 @@
                                 <button class="submit-btn">Submit Details</button>
                             </form>
 
+<<<<<<< HEAD
                             <!-- COMMERCIAL FORM -->
                             <form id="commercial" class="form-section" method="post" action="send-commercial-lead.php">
                                 <label>Full Name *</label>
@@ -237,16 +315,34 @@
 
                                 <label>Company Name *</label>
                                 <input type="text" name="company_name" class="form-control" required>
+=======
+
+                            <!-- COMMERCIAL FORM -->
+                            <form id="commercial" class="form-section">
+                                <label>Full Name *</label>
+                                <input type="text" required>
+
+                                <label>Company Name *</label>
+                                <input type="text" required>
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
 
                                 <div class="row">
                                     <div class="field">
                                         <label>City *</label>
+<<<<<<< HEAD
                                         <input type="text" name="city" class="form-control" required>
+=======
+                                        <input type="text" required>
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
                                     </div>
 
                                     <div class="field">
                                         <label>Pin code</label>
+<<<<<<< HEAD
                                         <input type="text" name="pincode" class="form-control" required>
+=======
+                                        <input type="text">
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
                                     </div>
                                 </div>
 
@@ -254,19 +350,32 @@
 
                                     <div class="field">
                                         <label>WhatsApp number *</label>
+<<<<<<< HEAD
                                         <input type="tel" name="whatsapp_number" placeholder="Enter WhatsApp number" class="form-control" required>
+=======
+                                        <input type="tel" placeholder="Enter WhatsApp number">
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
                                     </div>
 
                                     <div class="field">
                                         <label>Average Monthly Bill *</label>
+<<<<<<< HEAD
                                         <input type="text" name="monthly_bill" placeholder="Enter monthly bill" class="form-control" required>
+=======
+                                        <input type="text" placeholder="Enter monthly bill">
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
                                     </div>
 
                                 </div>
 
                                 <div class="checkbox">
+<<<<<<< HEAD
                                     <input type="checkbox" name="agree" required >
                                     <span>I agree to privacy policy</span>
+=======
+                                    <input type="checkbox" required>
+                                    <span>I agree to SolarSquare's terms of service & privacy policy</span>
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
                                 </div>
 
                                 <button class="submit-btn">Submit Details</button>
@@ -278,6 +387,13 @@
             </div>
         </div>
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 7ffc6abce85ee609740db812fe3be1e150871803
         <div>
 </main>
 
